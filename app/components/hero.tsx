@@ -9,7 +9,10 @@ export default async function Hero() {
                     src="/Hope-Accelerator-Retreats-Normandy-France.jpeg"
                     alt="Retreat Greenhouse"
                     fill
-                    style={{ objectFit: 'cover'}}
+                    style={{ 
+                        objectFit: 'cover',
+                        objectPosition: '50% 13.5%'
+                    }}
                 />
             </div>
         </div>
