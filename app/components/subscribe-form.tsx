@@ -6,6 +6,9 @@ export default async function SubscribeForm() {
             <div>
                 <p>Email</p>
             </div>
+            <div>
+                <p>Subscribe</p>
+            </div>
         </div>
     );
 }
