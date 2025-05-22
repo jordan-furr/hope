@@ -1,12 +1,46 @@
-.subscribeCont {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.subscribeCont {    
     width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 
-.subscribeCont p {
+.formCont {
+    border: solid 1px white;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.formInputCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.emailInput {
+    flex-grow: 1;
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.subButton {
+    padding: 10px;
+    box-sizing: border-box;
+    border-left: solid 1px white;
+}
+
+
+.subButton:hover{
+    background-color: white;
+    transition:ease-in-out 150ms;
+    color: red;
+}
+
+.emailInput--placeholder {
+    color: white;
+}
+
+.subscribeCont {
     font-size: 20px !important;
-    padding: 20px;
     color: white;
 }
