@@ -6,12 +6,12 @@ export default async function Hero() {
         <div className='bg-orange'>
             <div className={styles.heroCont}>
                 <Image
-                    src="/Hope-Accelerator-Retreats-Normandy-France.jpeg"
+                    src="/02.JPG"
                     alt="Retreat Greenhouse"
                     fill
                     style={{ 
                         objectFit: 'cover',
-                        objectPosition: '50% 13.5%'
+                        objectPosition: '50% 42%'
                     }}
                 />
             </div>
