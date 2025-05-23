@@ -57,7 +57,7 @@ const SubscribeForm = () => {
                     className={styles.subButton} 
                     disabled={status == "loading"}
                 >
-                    Subscribe
+                    subscribe
                 </button>
                 </div>
             </form>
