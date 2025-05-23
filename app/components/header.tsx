@@ -11,8 +11,8 @@ export default async function Header() {
                 <Image
                     src="/Hope-Accelerator-Retreats-Normandy-France-w.PNG"
                     alt="Menu"
-                    width={60}
-                    height={60}
+                    width={54}
+                    height={54}
                 />
             </div>
         </div>
