@@ -6,7 +6,7 @@ export default async function Hero() {
         <div>
             <div className={styles.heroCont}>
                 <Image
-                    src="/03.jpg"
+                    src="/hope_dirt.jpg"
                     alt="Retreat Greenhouse"
                     fill
                     style={{ 
