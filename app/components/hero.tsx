@@ -3,10 +3,10 @@ import styles from "./hero.module.css";
 
 export default async function Hero() {
     return (
-        <div className='bg-orange'>
+        <div>
             <div className={styles.heroCont}>
                 <Image
-                    src="/02.JPG"
+                    src="/03.jpg"
                     alt="Retreat Greenhouse"
                     fill
                     style={{ 

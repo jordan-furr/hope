@@ -15,7 +15,6 @@ const SubscribeForm = () => {
     const [statusCode, setStatusCode] = useState<number>();
 
     async function handleSubscribe(e: FormEvent<HTMLFormElement>) {
-        console.log("clicked");
         e.preventDefault();
         setStatus("loading");
         try {
@@ -37,7 +36,7 @@ const SubscribeForm = () => {
             setEmail("");
             setStatus("idle");
             setStatusCode(0);
-          }, 10000);
+          }, 200);
     }
 
     return (
@@ -57,7 +56,7 @@ const SubscribeForm = () => {
                     className={styles.subButton} 
                     disabled={status == "loading"}
                 >
-                    subscribe
+                    Subscribe
                 </button>
                 </div>
             </form>
