@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import Header from "./components/header";
 import { inter } from '@/app/ui/fonts';
-import "./styles/globals.css";
-import './styles/header.css'
+import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Hope Accelerator",
@@ -16,7 +14,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <Header />
       <body className={`${inter.className} ${inter.className}`}>
         <main>
           {children}

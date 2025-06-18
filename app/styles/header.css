@@ -2,7 +2,7 @@
     position: absolute;
     top: 0;
     z-index: 1000;
-    width: 100%;
+    width: 100vw;
 }
 
 .hopeTitle {
@@ -15,8 +15,17 @@
     font-weight: 400;
 }
 
+.hopeTitle:hover {
+    color: black;
+}
+
 .menuCont {
     position: absolute;
     top: 20px;
     right: 20px;
 }
+
+.menuCont:hover {
+    transform: scale(103%);
+}
+
