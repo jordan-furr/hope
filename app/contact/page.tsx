@@ -1,5 +1,4 @@
 import '../styles/page.css'
-import SubscribeForm from '../components/subscribe-form';
 
 export default function ContactPage() {
     return (
