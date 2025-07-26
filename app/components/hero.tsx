@@ -5,12 +5,12 @@ export default async function Hero() {
         <div>
             <div className="heroCont">
                 <Image
-                    src="/hope_dirt.jpg"
+                    src="/02.jpg"
                     alt="Retreat Greenhouse"
                     fill
                     style={{ 
                         objectFit: 'cover',
-                        objectPosition: '50% 42%'
+                        objectPosition: '50% 38%'
                     }}
                 />
             </div>
