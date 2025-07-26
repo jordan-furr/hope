@@ -10,7 +10,7 @@ export default async function Hero() {
                     fill
                     style={{ 
                         objectFit: 'cover',
-                        objectPosition: '50% 38%'
+                        objectPosition: '50% 37%'
                     }}
                 />
             </div>
