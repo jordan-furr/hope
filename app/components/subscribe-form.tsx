@@ -1,5 +1,4 @@
 'use client';
-import styles from "./subscribe-form.module.css";
 import React from "react";
 import { FormEvent, useState } from "react";
 import axios from "axios";
@@ -40,20 +39,20 @@ const SubscribeForm = () => {
     }
 
     return (
-        <div className={styles.subscribeCont}>
-            <form className={styles.formCont} onSubmit={handleSubscribe}>
-                <div className={styles.formInputCont}>
+        <div className="subscribeCont">
+            <form className="formCont" onSubmit={handleSubscribe}>
+                <div className="formInputCont">
                 <input
                     type="email"
-                    placeholder="email"
-                    className={styles.emailInput} 
+                    placeholder="Email"
+                    className="emailInput"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     disabled={status == "loading"}
                 />
                 <button
                     type="submit"
-                    className={styles.subButton} 
+                    className="subButton"
                     disabled={status == "loading"}
                 >
                     Subscribe
