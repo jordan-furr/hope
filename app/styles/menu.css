@@ -1,0 +1,16 @@
+.menuCont {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: fixed;
+    right: 50%;
+}
+
+
+.menuItem {
+    font-size: 48px;
+    color: white;
+}

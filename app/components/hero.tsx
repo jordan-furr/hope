@@ -1,17 +1,16 @@
 import Image from 'next/image';
-import styles from "./hero.module.css";
 
 export default async function Hero() {
     return (
         <div>
-            <div className={styles.heroCont}>
+            <div className="heroCont">
                 <Image
-                    src="/hope_dirt.jpg"
+                    src="/02.jpg"
                     alt="Retreat Greenhouse"
                     fill
                     style={{ 
                         objectFit: 'cover',
-                        objectPosition: '50% 42%'
+                        objectPosition: '50% 38%'
                     }}
                 />
             </div>
