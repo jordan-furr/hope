@@ -95,3 +95,9 @@
     font-size: clamp(1.25rem, 1.5vw, 2rem) !important;
     color: white;
 }
+
+@media (max-width: 600px) {
+    .heroCont {
+        height: 70dvh;
+    }
+}
