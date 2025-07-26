@@ -10,8 +10,8 @@ export default async function Header() {
             </h1>
             </Link>
             
-            <div className="menuCont">
-                <Link href="/menu">
+            <div className="menuIconCont">
+                <Link href="/">
                     <Image
                         src="/Hope-Accelerator-Retreats-Normandy-France-w.PNG"
                         alt="Menu"
