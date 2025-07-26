@@ -1,0 +1,66 @@
+.page {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+.line {
+    position: fixed;
+    border-bottom: 1px solid black;
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+}
+
+.pageContent {
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageTitle {
+    font-size: 2rem;
+}
+
+.page h3 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.subscribeLink {
+    color: #85b3ff;
+    font-weight: 500;
+}
+
+.subscribeLink:hover {
+    color: #85b3ff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: #85b3ff;
+}
+
+
+@media (min-width: 768px) {
+    .line {
+        height: 6rem;
+    }
+
+    .pageContent {
+        margin-top: 9rem;
+    }
+}
+
+@media (min-width: 928px) {
+
+    .pageContent {
+        width: 40%;
+        margin-top: 9rem;
+    }
+}
+
