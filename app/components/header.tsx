@@ -3,13 +3,14 @@ import Link from 'next/link';
 
 export default async function Header() {
     return (
-        <div className="headerCont">
-            <Link href="/">
-            <h1 className="hopeTitle">
-                Hope Accelerator
-            </h1>
-            </Link>
-            
+        <div className='headerCont'>
+            <div className="hopeCont">
+                <Link href="/">
+                    <h1 className="hopeTitle">
+                        Hope Accelerator
+                    </h1>
+                </Link>
+            </div>
             <div className="menuIconCont">
                 <Link href="/">
                     <Image
