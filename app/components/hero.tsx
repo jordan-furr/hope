@@ -8,10 +8,7 @@ export default async function Hero() {
                     src="/02.jpg"
                     alt="Retreat Greenhouse"
                     fill
-                    style={{ 
-                        objectFit: 'cover',
-                        objectPosition: '50% 36%'
-                    }}
+                    className="heroImg"
                 />
             </div>
         </div>
