@@ -51,7 +51,7 @@
 }
 
 .menuCont {
-    padding: 6rem 2rem 4rem 2rem;
+    padding: 7rem 2rem 4rem 2rem;
     display: flex;
     flex-direction: column;
 }
@@ -74,7 +74,8 @@
     z-index: 1500;
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 928px) {
     .menuOverlay {
         width: 33%;
         border-left: 1px solid white;
@@ -86,4 +87,11 @@
         left: calc((100% - 92%) / 2);
         transform: none;
     }
+}
+
+@media (max-width: 768px) {
+    .menuCont {
+        padding: 6rem 2rem 4rem 2rem;
+    }
+    
 }
