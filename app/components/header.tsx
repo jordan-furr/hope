@@ -70,7 +70,7 @@ export default function Header() {
                         alt="Menu"
                         width={42}
                         height={42}
-                        sizes="(max-width: 1068px) 54px, 72px"
+                        sizes="(max-width: 928px) 44px, 56px"
                         style={{ width: "100%", height: "auto" }}
                     />
                 </div>
