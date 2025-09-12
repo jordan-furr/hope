@@ -33,6 +33,31 @@
     font-size: 1.5rem;
 }
 
+
+
+.postTitle {
+    display: block;
+    padding: 10px;
+}
+
+.postTitle:hover {
+    color: #85b3ff;
+}
+
+.post-hr {
+    color: lightslategray;
+}
+
+.postPage-hr {
+    color: lightslategray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.postTitlePage {
+    font-size: larger;
+}
+
 .subscribeLink {
     color: #85b3ff;
     font-weight: 500;
@@ -44,6 +69,9 @@
     text-underline-offset: 3px;
     text-decoration-color: #85b3ff;
 }
+
+
+
 
 
 @media (min-width: 768px) {
