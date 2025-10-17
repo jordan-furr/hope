@@ -1,5 +1,6 @@
 
 'use client';
+import Image from "next/image";
 
 export default function RetreatPage() {
 
@@ -12,6 +13,15 @@ export default function RetreatPage() {
         <div className='page'>
             <div className='line'></div>
             <div className='pageContent'>
+                <Image
+                 src="/fecundityofdecay.png"
+                    alt="Retreat Greenhouse"
+                    width={600}
+                    height={600}
+                    style={{ width: "100%", height: "auto" }}
+                    className="mb2 margin-a"
+                />
+
                 <div className='pageTitle'>
                     <p className='retreatTitle'>The Fecundity of Decay: A Yearlong Pilgrimage Towards Selfhood</p>
                 </div>
