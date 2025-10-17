@@ -3,6 +3,7 @@ import Header from "./components/header";
 import { inter } from '@/app/ui/fonts';
 import "./styles/globals.css";
 import "./styles/header.css";
+import './styles/page.css'
 
 export const metadata: Metadata = {
   title: "Hope Accelerator",

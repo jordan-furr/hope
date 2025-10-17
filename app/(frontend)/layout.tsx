@@ -1,6 +1,4 @@
 import type { Metadata } from "next";
-import "../styles/globals.css";
-import "../styles/header.css";
 import { SanityLive } from '@/sanity/lib/live'
 
 export const metadata: Metadata = {
