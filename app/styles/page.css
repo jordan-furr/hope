@@ -33,6 +33,58 @@
     font-size: 1.5rem;
 }
 
+
+.retreat {
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.retreatSubTitle {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 1.25rem;
+    width: 66%;
+   
+}
+
+.retreatTitle {
+    font-size: 2rem;
+}
+
+.retreatDates {
+    padding-bottom: .25rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.retreat.subscribeLink {
+    font-weight: bold;
+}
+
+
+.postTitle {
+    display: block;
+    padding: 10px;
+}
+
+.postTitle:hover {
+    color: #85b3ff;
+}
+
+.post-hr {
+    color: lightslategray;
+}
+
+.postPage-hr {
+    color: lightslategray;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.postTitlePage {
+    font-size: larger;
+}
+
 .subscribeLink {
     color: #85b3ff;
     font-weight: 500;
@@ -45,6 +97,33 @@
     text-decoration-color: #85b3ff;
 }
 
+button {
+    background-color: #85b3ff;
+    width: fit-content;
+    padding: 12px 36px;
+    border-radius: 40px;
+    margin-top: .5rem;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.paragraphGap {
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+ul {
+    list-style: circle;
+}
+
+li {
+    margin-left: 1rem;
+}
 
 @media (min-width: 768px) {
 

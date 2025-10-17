@@ -1,9 +1,5 @@
 import type { Metadata } from "next";
-import Header from "./components/header";
-import { inter } from '@/app/ui/fonts';
-import "./styles/globals.css";
-import "./styles/header.css";
-import './styles/page.css'
+import { SanityLive } from '@/sanity/lib/live'
 
 export const metadata: Metadata = {
   title: "Hope Accelerator",
@@ -26,24 +22,15 @@ export const metadata: Metadata = {
   }
 };
 
-export default function RootLayout({
+export default function FrontendLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="theme-color" content="#2E2823" />
-      </head>
-      
-      <body className={`${inter.className} ${inter.className}`}>
-        <Header />
-        <main>
-          {children}
-        </main>
-      </body>
-    </html>
+    <>
+      {children}
+      <SanityLive />
+    </>
   );
 }
