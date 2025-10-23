@@ -1,6 +1,5 @@
 
 'use client';
-import Image from "next/image";
 
 export default function RetreatPage() {
 
@@ -13,15 +12,6 @@ export default function RetreatPage() {
         <div className='page'>
             <div className='line'></div>
             <div className='pageContent'>
-                <Image
-                 src="/fecundityofdecay.png"
-                    alt="Retreat Greenhouse"
-                    width={600}
-                    height={600}
-                    style={{ width: "100%", height: "auto" }}
-                    className="mb2 margin-a"
-                />
-
                 <div className='pageTitle'>
                     <p className='retreatTitle'>The Fecundity of Decay: A Yearlong Pilgrimage Towards Selfhood</p>
                 </div>
@@ -29,8 +19,8 @@ export default function RetreatPage() {
                     <p className='retreatDates'>April 16-20 & September 24-28, 2026</p>
                     <p className='retreatSubTitle'>A 4-Night Spring Retreat Honoring Nature’s Rhythms and Your Own</p>
                     <div className="buttons">
-                        <button onClick={handlePDFClick}>View Retreat Flyer</button>
-                        <button>Save Your Spot</button>
+                        <button className="retreatButton" onClick={handlePDFClick}>View Retreat Booklet</button>
+                        <a className="retreatButton" href="/retreats/fecundity-of-decay/checkout">Save Your Spot</a>
                     </div>
 
                     <div className="bold mb4 mt3">
@@ -77,7 +67,7 @@ export default function RetreatPage() {
                         <p>And this spring, we return to the ground of our being.</p>
                     </div>
                 </div>
-                <button className="mb7">Register Now</button>
+                <a className="retreatButton" href="/retreats/fecundity-of-decay/checkout">Register Now</a>
             </div>
         </div>
     );
