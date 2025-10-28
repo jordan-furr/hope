@@ -109,6 +109,6 @@
     .heroImg {
         object-fit: cover;
         object-position: 50% 22%;
-        transform: scale(1.18);
+        transform: scale(1.3);
     }
 }
