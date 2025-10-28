@@ -13,9 +13,10 @@ export default function RetreatPage() {
                     <h3>Upcoming</h3>
                     <div className='retreat'>
                         <Link href="/retreats/fecundity-of-decay">
-                            <p className='retreatDates'>April 16-20 & September 24-28, 2026</p>
+                            <p className='retreatDates'>Online Circle: Jan - Dec 2026</p>
+                            <p className='retreatDates'>In Person: April 16-20 & September 24-28</p>
                             <p className='retreatTitle'>The Fecundity of Decay: A Yearlong Pilgrimage Towards Selfhood</p>
-                            <p className='retreatSubTitle'>A 4-Night Spring Retreat Honoring Nature’s Rhythms and Your Own</p>
+                            <p className='retreatSubTitle italic'>Honoring Nature’s Rhythms and Your Own</p>
                             <p><Link href="/retreats/fecundity-of-decay" className="subscribeLink">
                                 Discover
                             </Link>
