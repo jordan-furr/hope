@@ -43,6 +43,10 @@ a {
   position: absolute;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .relative {
   position: relative;
 }
