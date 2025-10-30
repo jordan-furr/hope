@@ -25,6 +25,7 @@ export default function RetreatPage() {
                         <p>Beginning January 2026, join a <b>global constellation of new friends</b> ready to surrender to the rhythms of Nature.</p>
                         <p><b>*12 themed compost circles:</b> Monthly online group workshops discussing insightful lessons and ideas from two newsletters sent throughout the month.</p>
                         <p><b>*2 in person retreats in Normandy (optional, space limited)</b></p>
+                        <p><b>*2 dedicated hosts, Susannah Harmon Furr and Kirsten Kallman</b></p>
                     </div>
 
 
@@ -63,7 +64,7 @@ export default function RetreatPage() {
                         <p>The last Wednesday of every month we will gather online for 60 minutes, starting with a 20-30 minute presentation to further explore the themes of that month before separating into the ethereal magic of triad circles made up of two fellow pilgrims and you. You will have 30 minutes to hold space together, weaving a web of deeper sharing: fecundity and decay, beginnings and endings, it all deserves to be welcome and witnessed. </p>
                         <p>Surrendering and witnessing in community enriches the cycle. When we resist our shadows, they linger. When we turn toward them– even just ever so slightly–they start to dance. Your light and your dark are both welcome here. You are not too much, not too late, not lost. You are soil and soul. </p>
                         <p>Presentations will be recorded and additional workshops may be offered, taking cues from what is needed as we walk this year together. </p>
-                        <p>Price: </p>
+                        <p className="mt4">Cost: $360</p>
                         <a className="retreatButton mb4" href="/retreats/fecundity-of-decay/checkout">Reserve Now</a>
 
                         <div>
@@ -87,20 +88,8 @@ export default function RetreatPage() {
                             <li>You’re ready to <b>meet yourself exactly where you are</b>, without trying to “fix” anything</li>
                         </ul>
 
-                        <p className="retreatSubTitle mt3">Special Experiences & Guests</p>
-                        <p>This retreat will include offerings to nourish body, spirit, and creative expression:</p>
-                        <ul>
-                            <li><b>Cooking + crepe-making workshop with Sara Zin</b>, author of <i>The Starving Artist’s Cookbook</i></li>
-                            <li><b>Sound bath with George Lewis</b>, weaving sound and spirit into vibrational restoration</li>
-                            <li><b>Poetry & story workshop with Brad Modlin,</b> exploring the truth-telling magic of the written and spoken word</li>
-                            <li>Optional teachings from <b>Ezra Furr</b>, exploring shadow through a Jungian art lens</li>
-                            <li>Gentle <b>yoga and movement</b>, woven through our days</li>
-                            <li>Optional couples work with <b>Annemarie & Tom</b>, for those attending in partnership</li>
-                        </ul>
-                        <p className="pt4">For those wanting to extend the journey, <b>optional add-ons</b> include a pilgrimage to <b>Mont Saint-Michel</b>, the tides pulling like breath around this sacred mount, or a coastal excursion to <b>Saint-Malo</b>, the walled city by the sea.</p>
-
-
-                        <p>Price: </p>
+                        <p className="mt4">Cost: $2160</p>
+                        <p><b>Retreat reservation includes housing, transportation from Paris, meals, and experiences as well as access to the online Compost Circle.</b></p>
                         <a className="retreatButton mb4" href="/retreats/fecundity-of-decay/checkout">Reserve Now</a>
 
 
