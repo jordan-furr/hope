@@ -26,10 +26,10 @@ export default function RetreatPage() {
                     <Link href="https://forms.gle/9AkEreCKr4BBH4Nv8" className="subscribeLink" target="_">
                         Live Info Presentation: November 19</Link>
                     <div className="buttons mt3">
-                        <a className="retreatButton" href="https://buy.stripe.com/test_00w5kv9fde1y3B90yM5c400">April & September Retreats, Online Circle: $4</a>
-                        <a className="retreatButton" href="https://buy.stripe.com/test_00wdR18b99Li2x5epC5c402">April Retreat, Online Circle: $2</a>
-                        <a className="retreatButton" href="https://buy.stripe.com/test_4gM3cn2QP6z62x54P25c401">September Retreat, Online Circle: $2</a>
-                        <a className="retreatButton" href="https://buy.stripe.com/test_3cIfZ9bnl9Li1t1dly5c403">Online Circle: $1</a>
+                        <a className="retreatButton" href="https://book.stripe.com/00w5kv9fde1y3B90yM5c400">Online Circle: $360</a>
+                        <a className="retreatButton" href="https://book.stripe.com/00wdR18b99Li2x5epC5c402">April Retreat, Online Circle: $2,160</a>
+                        <a className="retreatButton" href="https://book.stripe.com/4gM3cn2QP6z62x54P25c401">September Retreat, Online Circle: $2,160</a>
+                        <a className="retreatButton" href="https://book.stripe.com/3cIfZ9bnl9Li1t1dly5c403">April & September Retreats, Online Circle: $3,960</a>
                     </div>
                 </div>
             </div>
