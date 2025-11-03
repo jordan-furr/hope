@@ -10,7 +10,7 @@ export default function Header() {
     const [isClosing, setIsClosing] = useState(false);
     const pathname = usePathname();
     const isHome = pathname === '/';
-     const menuRef = useRef<HTMLDivElement>(null);
+    const menuRef = useRef<HTMLDivElement>(null);
     const menuToggleRef = useRef<HTMLDivElement>(null);
 
     const closeMenu = () => {
@@ -52,29 +52,26 @@ export default function Header() {
 
     return (
         <>
-            <div className='headerCont'>
-                <div className="hopeCont">
-                    <Link href="/">
-                        <h1 className={`hopeTitle  ${isHome ? 'text-white' : 'text-brown'}`}>
-                            Hope Accelerator
-                        </h1>
-                    </Link>
-                </div>
-                <div
-                    className="menuToggleIcon"
-                    onClick={toggleMenu}
-                    ref={menuToggleRef}
-                >
-                    <Image
-                        src={isHome || menuOpen ? '/Hope-Accelerator-Retreats-Normandy-France-w.PNG' : '/Hope-Accelerator-Retreats-Normandy-France.PNG'}
-                        alt="Menu"
-                        width={42}
-                        height={42}
-                        sizes="(max-width: 928px) 44px, 56px"
-                        style={{ width: "100%", height: "auto" }}
-                    />
-                </div>
+                <Link href="/">
+                    <h1 className="text-white hopeTitle">
+                        Hope Accelerator
+                    </h1>
+                </Link>
+            <div
+                className="menuToggleIcon"
+                onClick={toggleMenu}
+                ref={menuToggleRef}
+            >
+                <Image
+                    src="/Hope-Accelerator-Retreats-Normandy-France-w.PNG"
+                    alt="Menu"
+                    width={42}
+                    height={42}
+                    sizes="(max-width: 928px) 44px, 56px"
+                    style={{ width: "100%", height: "auto" }}
+                />
             </div>
+
             {menuOpen && (
                 <div ref={menuRef}>
                     <MenuOverlay onClose={closeMenu} isClosing={isClosing} />

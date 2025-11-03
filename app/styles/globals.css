@@ -353,6 +353,10 @@ a {
     padding-right: 1rem;
 }
 
+.pr4 {
+    padding-right: 1.5rem;
+}
+
 .pt1 {
     padding-top: 0.25rem;
 }
@@ -367,6 +371,10 @@ a {
 
 .pt4 {
     padding-top: 1.5rem;
+}
+
+.pt5 {
+    padding-top: 2rem;
 }
 
 .ph1 {
@@ -701,3 +709,15 @@ a {
     color: #2E2823;
 }
 
+
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 200ms ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
