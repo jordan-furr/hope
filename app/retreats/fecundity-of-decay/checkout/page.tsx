@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function RetreatPage() {
 
@@ -6,6 +7,7 @@ export default function RetreatPage() {
     return (
         <div className='page'>
             <div className='line'></div>
+           
             <div className='pageContent'>
                 <div className='pageTitle'>
                     <p className='retreatTitle'>The Fecundity of Decay: A Yearlong Pilgrimage Towards Selfhood</p>
