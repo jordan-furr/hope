@@ -29,6 +29,10 @@ export default function FrontendLayout({
 }>) {
   return (
     <>
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#2E2823" />
+      </head>
       {children}
       <SanityLive />
     </>
