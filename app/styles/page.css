@@ -400,17 +400,6 @@ ul {
         font-size: 40px;
     }
 
-    body::before {
-        content: "MOBILE ACTIVE";
-        position: fixed;
-        top: 0;
-        left: 0;
-        background: red;
-        color: white;
-        padding: 4px 8px;
-        z-index: 9999;
-    }
-
 }
 
 @media (max-width: 720px) {
