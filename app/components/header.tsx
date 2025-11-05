@@ -9,8 +9,8 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
     const pathname = usePathname();
-    const isHome = pathname === '/';
-     const menuRef = useRef<HTMLDivElement>(null);
+    const isWhite = pathname === '/' || pathname === '/retreats/the-fecundity-of-decay' || pathname === '/retreats/the-fecundity-of-decay/checkout';
+    const menuRef = useRef<HTMLDivElement>(null);
     const menuToggleRef = useRef<HTMLDivElement>(null);
 
     const closeMenu = () => {
@@ -52,29 +52,26 @@ export default function Header() {
 
     return (
         <>
-            <div className='headerCont'>
-                <div className="hopeCont">
-                    <Link href="/">
-                        <h1 className={`hopeTitle  ${isHome ? 'text-white' : 'text-brown'}`}>
+                <Link href="/">
+                    <h1 className={`hopeTitle  ${isWhite ? 'text-white' : 'text-brown'}`}>
                             Hope Accelerator
                         </h1>
-                    </Link>
-                </div>
-                <div
-                    className="menuToggleIcon"
-                    onClick={toggleMenu}
-                    ref={menuToggleRef}
-                >
-                    <Image
-                        src={isHome || menuOpen ? '/Hope-Accelerator-Retreats-Normandy-France-w.PNG' : '/Hope-Accelerator-Retreats-Normandy-France.PNG'}
-                        alt="Menu"
-                        width={42}
-                        height={42}
-                        sizes="(max-width: 928px) 44px, 56px"
-                        style={{ width: "100%", height: "auto" }}
-                    />
-                </div>
+                </Link>
+            <div
+                className="menuToggleIcon"
+                onClick={toggleMenu}
+                ref={menuToggleRef}
+            >
+                <Image
+                    src={isWhite || menuOpen ? '/Hope-Accelerator-Retreats-Normandy-France-w.PNG' : '/Hope-Accelerator-Retreats-Normandy-France.PNG'}
+                    alt="Menu"
+                    width={42}
+                    height={42}
+                    sizes="(max-width: 928px) 44px, 56px"
+                    style={{ width: "100%", height: "auto" }}
+                />
             </div>
+
             {menuOpen && (
                 <div ref={menuRef}>
                     <MenuOverlay onClose={closeMenu} isClosing={isClosing} />
