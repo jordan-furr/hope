@@ -9,7 +9,7 @@ export default function Header() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [isClosing, setIsClosing] = useState(false);
     const pathname = usePathname();
-    const isHome = pathname === '/';
+    const isWhite = pathname === '/' || pathname === '/retreats/the-fecundity-of-decay' || pathname === '/retreats/the-fecundity-of-decay/checkout';
     const menuRef = useRef<HTMLDivElement>(null);
     const menuToggleRef = useRef<HTMLDivElement>(null);
 
@@ -53,9 +53,9 @@ export default function Header() {
     return (
         <>
                 <Link href="/">
-                    <h1 className="text-white hopeTitle">
-                        Hope Accelerator
-                    </h1>
+                    <h1 className={`hopeTitle  ${isWhite ? 'text-white' : 'text-brown'}`}>
+                            Hope Accelerator
+                        </h1>
                 </Link>
             <div
                 className="menuToggleIcon"
@@ -63,7 +63,7 @@ export default function Header() {
                 ref={menuToggleRef}
             >
                 <Image
-                    src="/Hope-Accelerator-Retreats-Normandy-France-w.PNG"
+                    src={isWhite || menuOpen ? '/Hope-Accelerator-Retreats-Normandy-France-w.PNG' : '/Hope-Accelerator-Retreats-Normandy-France.PNG'}
                     alt="Menu"
                     width={42}
                     height={42}

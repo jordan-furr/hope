@@ -9,7 +9,8 @@ export default function ContactPage() {
                     <h1>Get in Touch</h1>
                 </div>
                 <div className='mt3'>
-                    <p>Please email us at info@upschool.org</p>
+                    <p className='mb1'>Please email us at info@upschool.org</p>
+                    <p>Susannah Furr: susannah@uncertaintypossibility.com</p>
                 </div>
             </div>
         </div>
