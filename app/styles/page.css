@@ -388,8 +388,7 @@ ul {
 
 
     .halfPhoto {
-        min-height: 60vh;
-        height: auto;
+        height: auto !important;
     }
 
     .halfText,
@@ -400,6 +399,17 @@ ul {
 
     h2 {
         font-size: 40px;
+    }
+
+    body::before {
+        content: "MOBILE ACTIVE";
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: red;
+        color: white;
+        padding: 4px 8px;
+        z-index: 9999;
     }
 
 }
