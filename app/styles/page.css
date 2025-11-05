@@ -238,7 +238,7 @@ li {
     z-index: 101;
     position: relative;
     width: 100vw;
-    height: 100svh;
+    height: 100vh;
     object-position: 50% 77%;
 }
 
@@ -375,10 +375,9 @@ ul {
         flex-direction: column;
     }
 
-    .row-reverse {
-        display: flex;
-        flex-direction: column-reverse;
-    }
+    .row-reverse.mobile-col {
+    flex-direction: column-reverse;
+  }
 
     .halfText,
     .halfPhoto,
@@ -452,7 +451,7 @@ ul {
     }
 
     .late-mobile-half {
-        width: 47%;
+        width: 47% !important;
     }
 
     h5 {
