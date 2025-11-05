@@ -7,14 +7,15 @@ export default function SuccessPage() {
             <div className='line'></div>
             <div className='pageContent'>
                 <div className='pageTitle'>
-                    <h1>Your Spot is Reserved!</h1>
+                    <h2>You're joining the pilgrimage</h2>
                 </div>
-                <div className='mt3'>
-                    <p className="mb6">We can't wait to begin. You'll recieve a confirmation email in the next day.</p>
+                <div className='mt1'>
+                    <p className="mb2">You'll recieve a confirmation email in the next day. We can't wait to begin. </p>
+                    <p className="mb6">If needed, contact Susannah at susannah@uncertaintypossibility.com</p>
         <Link
-          href="/"
+          href="/retreats/the-fecundity-of-decay"
         >
-          Return Home
+         &larr; Return
         </Link>
                 </div>
             </div>

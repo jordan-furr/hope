@@ -2,22 +2,19 @@
 
 .page {
     width: 100vw;
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     min-height: 100vh;
     overflow: auto;
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
     color: #2E2823;
-    background-color: rgb(255, 243, 232);
+    background-color: #FFFEF9;
 }
 
 .line {
-    position: fixed;
-    border-bottom: 1px solid black;
-    height: 5.2rem;
+    position: relative;
+    height: 6rem;
     width: 100%;
-    background-color: #2E2823;
     z-index: 100;
 }
 
@@ -33,7 +30,7 @@
     width: 92%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
     margin-bottom: 3rem;
 }
 
@@ -56,7 +53,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 1.8rem;
-    
+
 }
 
 .sectionTitle {
@@ -81,7 +78,7 @@
 
 .dates {
     font-size: 1rem;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .marcellus {
@@ -157,21 +154,21 @@
 }
 
 .retreatButton {
-    background-color: #fffefc;
+    background-color: #2E2823;
     width: fit-content;
     padding: 9px 27px;
     border-radius: 28px;
     margin-top: .5rem;
-    color: rgb(72, 39, 2);
+    color: #FFFEF9;
     font-weight: bold;
     font-size: 1.25rem;
-    border: rgb(72, 39, 2) 1px solid;
+    border: #2E2823 1px solid;
     font-family: "Marcellus", serif;
 }
 
 .retreatButton:hover {
-    color: #fffefc;
-    background-color: #2E2823;
+    color: #2E2823;
+    background-color: #fffefc;
     transition: all 200ms ease-in-out;
 }
 
@@ -235,15 +232,40 @@ li {
 
 /*fecundity*/
 
-
 .decayHero {
     object-fit: cover;
     transition: transform 0.3s ease;
     z-index: 101;
     position: relative;
     width: 100vw;
-    height: 100vh;
-    object-position: 50% 73%;
+    height: 100svh;
+    object-position: 50% 77%;
+}
+
+.retreatHero {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    z-index: 101;
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-position: 50% 77%;
+}
+
+
+.halfPhoto {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.halfText,
+.fullText {
+    padding: 3rem;
+    padding-bottom: 4rem;
+    box-sizing: border-box;
 }
 
 .instaPhoto {
@@ -251,10 +273,82 @@ li {
     border-radius: 6px;
 }
 
-.threePhoto {
-    gap: 1rem;
+.smaller {
+    font-size: 1rem;
+    padding-top: .5rem;
 }
 
+.webSpace {
+    height: 50px;
+}
+
+h2,
+h4,
+h5 {
+    font-family: "Marcellus", serif;
+    margin-bottom: 3rem;
+    line-height: normal;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h4 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+.bg-cream {
+    background-color: #FFFEF9;
+}
+
+.bg-pink {
+    background-color: #FFE7E0;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bigQuote {
+    font-size: 42px;
+    line-height: 1.5;
+    font-family: "Marcellus", serif;
+}
+
+.threePhoto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding-top: 3rem;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+
+.gridphoto {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.underline:hover {
+    text-decoration: none;
+}
 
 
 @media (max-width: 1090px) {
@@ -270,4 +364,107 @@ li {
     .pageContent {
         width: 80vw;
     }
+}
+
+@media (max-width: 890px) {
+    .webSpace {
+        display: none;
+    }
+
+    .mobile-col {
+        flex-direction: column;
+    }
+
+    .row-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .halfText,
+    .halfPhoto {
+        width: 100%;
+    }
+
+    .mobile-full {
+        width: 100% !important;
+    }
+
+    .halfPhoto {
+        min-height: 100vh;
+        height: 100vh;
+    }
+
+    .halfText,
+    .fullText {
+        padding: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    .halfPhoto {
+        min-height: 66vh;
+        height: 66vh;
+    }
+
+    .hideMobile {
+        display: none;
+    }
+
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mobile-smaller {
+        font-size: 1.25rem;
+    }
+
+    .page {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 551px) {
+    .web-hide {
+        display: none;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .late-mobile-hide {
+        display: none;
+    }
+
+    .late-mobile-half {
+        width: 47%;
+    }
+
+    h5 {
+        font-size: 22px !important;
+        margin-bottom: 2rem;
+    }
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 2rem;
+    }
+
+    h4 {
+        font-size: 28px;
+        margin-bottom: 2rem;
+    }
+
+    .bigQuote {
+        font-size: 32px;
+        line-height: 1.5;
+        font-family: "Marcellus", serif;
+    }
+
 }
