@@ -22,8 +22,8 @@ export default function RetreatPage() {
                     <h2 className="mb3">The Fecundity of Decay: A Yearlong Pilgrimage Towards Selfhood</h2>
                 </div>
                 <div className='mb3'>
-                    <p className=''>Online Compost Circle: Jan - Dec 2026</p>
-                    <p className='retreatDates'>Normandy Retreats: April 16-20 & September 24-28</p>
+                    <p className=''>Online Compost Circle: Jan - Dec</p>
+                    <p className='retreatDates'>Normandy Retreats: April 16-20 & September 24-28, 2026</p>
                     
                     <div className=" mb5 pt5 marcellus italic">
                         <p>Light, dark, light again...</p>
