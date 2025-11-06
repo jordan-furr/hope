@@ -31,6 +31,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={80}
                         className="halfPhoto"
                     />
                 </div>
@@ -44,6 +45,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={70}
                         className="gridphoto"
                     />
                     <Image
@@ -51,6 +53,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={70}
                         className="gridphoto"
                     />
                     <Image
@@ -58,6 +61,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={70}
                         className="gridphoto"
                     />
                     <Image
@@ -65,6 +69,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={70}
                         className="gridphoto"
                     />
                     <Image
@@ -72,6 +77,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={70}
                         className="gridphoto hideMobile"
                     />
                 </div>
@@ -92,6 +98,7 @@ export default function RetreatPage() {
                     alt="Retreat"
                     width={1620}
                     height={2025}
+                    quality={80}
                     className="web-hide mb3 w-90 margin-a"
                 />
                 <div className="flex-row space-between align-center pt4 late-mobile-col">
@@ -101,6 +108,7 @@ export default function RetreatPage() {
                             alt="Retreat"
                             width={1620}
                             height={2025}
+                            quality={80}
                         />
                         <p className="smaller">Kirsten Kallman</p>
                     </div>
@@ -110,6 +118,7 @@ export default function RetreatPage() {
                             alt="Retreat"
                             width={1620}
                             height={2025}
+                            quality={80}
                         />
                     </div>
                     <div className="w-25 text-center late-mobile-half mb6">
@@ -118,6 +127,7 @@ export default function RetreatPage() {
                             alt="Retreat"
                             width={1620}
                             height={2025}
+                            quality={80}
                         />
                         <p className="smaller">Susannah Furr</p>
                     </div>
@@ -139,6 +149,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={80}
                         className="halfPhoto"
                     />
                 </div>
@@ -150,6 +161,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={80}
                         className="halfPhoto"
                     />
                 </div>
@@ -169,7 +181,6 @@ export default function RetreatPage() {
                 alt="Retreat Greenhouse"
                 width={1920}
                 height={1080}
-                priority
                 className="retreatHero"
             />
             <div className="bg-cream fullText">
@@ -193,6 +204,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={80}
                         className="halfPhoto"
                     />
                 </div>
@@ -204,6 +216,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={80}
                         className="halfPhoto"
                     />
                 </div>
@@ -227,6 +240,7 @@ export default function RetreatPage() {
                             alt="Retreat"
                             width={1620}
                             height={2025}
+                            quality={75}
                             className="gridphoto"
                         />
                     </div>
@@ -236,6 +250,7 @@ export default function RetreatPage() {
                             alt="Retreat"
                             width={1620}
                             height={2025}
+                            quality={75}
                             className="gridphoto"
                         />
                     </div>
@@ -245,6 +260,7 @@ export default function RetreatPage() {
                             alt="Retreat"
                             width={1620}
                             height={2025}
+                            quality={75}
                             className="gridphoto"
                         />
                     </div>
@@ -279,7 +295,6 @@ export default function RetreatPage() {
                 alt="Retreat Greenhouse"
                 width={1920}
                 height={1080}
-                priority
                 className="decayHero"
             />
             <div className="flex-row mobile-col align-center bg-cream">
@@ -292,6 +307,7 @@ export default function RetreatPage() {
                         alt="Retreat"
                         width={1620}
                         height={2025}
+                        quality={80}
                         className="halfPhoto"
                     />
                 </div>
