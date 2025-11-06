@@ -154,7 +154,7 @@
 }
 
 .retreatButton {
-    background-color: #2E2823;
+    background-color: #4a4037;
     width: fit-content;
     padding: 9px 27px;
     border-radius: 28px;
@@ -162,12 +162,12 @@
     color: #FFFEF9;
     font-weight: bold;
     font-size: 1.25rem;
-    border: #2E2823 1px solid;
+    border: #4a4037 1px solid;
     font-family: "Marcellus", serif;
 }
 
 .retreatButton:hover {
-    color: #2E2823;
+    color: #4a4037;
     background-color: #fffefc;
     transition: all 200ms ease-in-out;
 }
@@ -343,11 +343,18 @@ ul {
 
 .underline {
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .underline:hover {
     text-decoration: none;
 }
+
+.infoHighlight {
+    background-color: #FFE7E0;
+    padding: 16px;
+}
+
 
 
 @media (max-width: 1090px) {
