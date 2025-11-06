@@ -19,7 +19,7 @@ export default function RetreatPage() {
                     <h2>This January, we return to the ground of our being.</h2>
                     <p className="mb5">Join a global constellation of new friends ready to follow the rhythms of Nature.</p>
                     <p className="mb3"><b>*12 online themed compost circles</b> following Nature’s Regenerative wisdom</p>
-                    <p className="mb5"><b>*Spring and Fall retreats in Normandy</b> (optional, limited spots)</p>
+                    <p className="mb5"><b>*Spring or Fall retreat in Normandy</b> (optional, limited spots)</p>
                      <div className="flex-col">
                         <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Sign up to join</p></a>
                         <a className="retreatButton" href="https://forms.gle/9AkEreCKr4BBH4Nv8" target="_"><p>Info Session: November 19</p></a>
@@ -133,7 +133,7 @@ export default function RetreatPage() {
                         <p className="smaller">Susannah Furr</p>
                     </div>
                 </div>
-                <p className="mb3"><b>Led by Kirsten Kallman</b>(Health and Human Design Coach) and <b>Susannah Harmon Furr</b> (author of <i>The Upside of Uncertainty</i> and biodynamic, biointensive gardener), we’ll embark on a <b>yearlong journey of regenerative wisdom in action.</b></p>
+                <p className="mb3"><b>Led by Kirsten Kallman </b>(Health and Human Design Coach) and <b>Susannah Harmon Furr</b> (author of <i>The Upside of Uncertainty</i> and biodynamic, biointensive gardener), we’ll embark on a <b>yearlong journey of regenerative wisdom in action.</b></p>
                 <p>Our journey together will be guided by several frameworks: <b>Human Design, Gene Keys, The Upside of Uncertainty Tools,</b> and the wisdom of <b>Regenerative Design.</b></p>
             </div>
             <div className="flex-row mobile-col row-reverse">
