@@ -376,13 +376,13 @@ ul {
     }
 
     .row-reverse.mobile-col {
-    flex-direction: column-reverse;
-  }
+        flex-direction: column-reverse;
+    }
 
     .halfText,
     .halfPhoto,
     .mobile-full {
-         width: 100% !important;
+        width: 100% !important;
     }
 
 
@@ -462,6 +462,10 @@ ul {
         font-size: 32px;
         line-height: 1.5;
         font-family: "Marcellus", serif;
+    }
+
+    .retreatButton {
+        font-size: 1.15rem;
     }
 
 }
