@@ -110,7 +110,8 @@ export default function RetreatPage() {
                             height={2025}
                             quality={80}
                         />
-                        <p className="smaller">Kirsten Kallman</p>
+                        <a href="https://www.kirstenkallman.com/" target="_blank" className="underline"><p className="smaller">Kirsten Kallman</p></a>
+                        
                     </div>
                     <div className="w-35 mb6 late-mobile-hide">
                         <Image
@@ -275,16 +276,16 @@ export default function RetreatPage() {
                 <ul className="mb5">
                     <li>4 nights of cozy comfort in Normandy cottage, private rooms
                         (discount available if shared occupancy)</li>
+                    <li>1:1 online Human Design/Gene Keys session with Kirsten</li>
                     <li>1 daily seasonal, gastronomic meal, 1 daily communal meal</li>
                     <li>Transfer to~from Paris / Normandy</li>
                     <li>Field trips to two farmers markets and seaside village of Honfleur</li>
-                    <li>1:1 online Human Design/Gene Keys session with Kirsten</li>
                     <li>Biointensive gardening tutorials and resources</li>
                     <li>Nature walks, e-bikes, hot tub</li>
                     <li>Snacks, drinks </li>
                 </ul>
-                <p className="mb5">In your 1:1 online session with Kirsten, you’ll explore the living blueprint of who you are through your Human Design chart — a map revealing how your body, as part of Nature, creates your unique way of being. In cultivating this understanding, you will see that self-awareness is the soil from which self-acceptance grows, to then blossom into the self-love we all need to truly thrive. </p>
-                <p className="mb3">Join us for this soulful and restorative experience.</p>
+                <p className="mb5 infoHighlight">In your 1:1 online session with Kirsten, you’ll explore the living blueprint of who you are through your Human Design chart — a map revealing how your body, as part of Nature, creates your unique way of being. In cultivating this understanding, you will see that self-awareness is the soil from which self-acceptance grows, to then blossom into the self-love we all need to truly thrive. </p>
+                <p className="mb5">Join us for this soulful and restorative experience.</p>
                 <div className="flex-col">
                     <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Sign up to join</p></a>
                     <a className="retreatButton" href="https://forms.gle/9AkEreCKr4BBH4Nv8" target="_"><p>Info Session: November 19</p></a>
