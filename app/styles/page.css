@@ -343,11 +343,18 @@ ul {
 
 .underline {
     text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .underline:hover {
     text-decoration: none;
 }
+
+.infoHighlight {
+    background-color: #FFE7E0;
+    padding: 16px;
+}
+
 
 
 @media (max-width: 1090px) {
