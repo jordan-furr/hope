@@ -79,7 +79,7 @@ export default function RetreatPage() {
                 <p className="mobile-smaller"><b>Nothing is wrong with you. You are not broken.</b></p>
             </div>
             <div className="fullText">
-                <h4>This if for you if...</h4>
+                <h4>This is for you if...</h4>
                 <div className="paragraphGap pl4"><p>*You’re craving a <b>deeper connection to the Earth, your body, your intuition</b></p>
                     <p>*You are looking for guidance in practical frameworks for <b>intentional living</b></p>
                     <p>*You are seeking <b>solidarity to release the pressure to always bloom</b></p>
@@ -262,11 +262,12 @@ export default function RetreatPage() {
                     <li>1 daily seasonal, gastronomic meal, 1 daily communal meal</li>
                     <li>Transfer to~from Paris / Normandy</li>
                     <li>Field trips to two farmers markets and seaside village of Honfleur</li>
-                    <li>1 online Human Design/Gene Keys session with Kirsten</li>
+                    <li>1:1 online Human Design/Gene Keys session with Kirsten</li>
                     <li>Biointensive gardening tutorials and resources</li>
                     <li>Nature walks, e-bikes, hot tub</li>
                     <li>Snacks, drinks </li>
                 </ul>
+                <p className="mb5">In your 1:1 online session with Kirsten, you’ll explore the living blueprint of who you are through your Human Design chart — a map revealing how your body, as part of Nature, creates your unique way of being. In cultivating this understanding, you will see that self-awareness is the soil from which self-acceptance grows, to then blossom into the self-love we all need to truly thrive. </p>
                 <p className="mb3">Join us for this soulful and restorative experience.</p>
                 <div className="flex-col">
                     <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Sign up to join</p></a>
