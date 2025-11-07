@@ -196,7 +196,7 @@ export default function RetreatPage() {
                 <div className="w-50 halfText">
                     <div className="webSpace"></div>
                     <h2>Rhythm of the Days</h2>
-                    <p className="mb6">Through carefully woven days of connection, reflection, work in the soil, and the pleasure of beautiful nourishing food, we’ll explore what it means to live as part of nature, not apart from it. </p>
+                    <p className="mb5">Through carefully woven days of connection, reflection, work in the soil, and the pleasure of beautiful nourishing food, we’ll explore what it means to live as part of nature, not apart from it. </p>
                     <p className="mb3">Following the seasonal cues, our days will be rooted in the dance between nourishment and exploration, solitude and sisterhood, learning and embodiment, rest and labor. </p>
                 </div>
                 <div className="w-50 mobile-full">
@@ -224,7 +224,7 @@ export default function RetreatPage() {
                 <div className="w-50 halfText bg-cream">
                     <div className="webSpace"></div>
                     <h2>Frameworks</h2>
-                    <p className="mb3">In addition to hands-on workshops and experience with the magic of soil we’ll explore: </p>
+                    <p className="mb5">In addition to hands-on workshops and experience with the magic of soil we’ll explore: </p>
                     <p className="mb3">*Human Design and the Gene Keys to deepen our understanding of who we are, how we’re designed to move through life, and what’s possible when we stop resisting our natural cycles and begin to trust them instead. </p>
                     <p>*How uncertainty is profoundly rich terrain for our wildest dreams and our possibilities are only ever as rich as our willingness to plant seeds on the darkest of nights.  </p>
                 </div>
