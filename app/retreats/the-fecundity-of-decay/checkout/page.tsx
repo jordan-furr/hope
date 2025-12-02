@@ -38,6 +38,9 @@ export default function RetreatPage() {
                         <a className="retreatButton" href="https://book.stripe.com/fZu00b9fd2iQfjRgxK5c408">September Retreat: 2,000 EUR</a>
                         <a className="retreatButton" href="https://book.stripe.com/8x25kvcrp4qY5Jh2GU5c409">April & September: 4,000 EUR</a>
                     </div>
+
+                    <p className="mb4 pt5">Please <a href="mailto:info@upschool.org" className="underline" target="_">email us</a> with any questions.</p>
+                   
                 </div>
             </div>
         </div>
