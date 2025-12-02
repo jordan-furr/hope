@@ -16,14 +16,13 @@ export default function RetreatPage() {
             <div className="flex-row mobile-col">
                 <div className="w-50 halfText">
                     <div className="webSpace"></div>
-                    <h2>This January, we return to the ground of our being.</h2>
-                    <p className="mb5">Join a global constellation of new friends ready to follow the rhythms of Nature.</p>
-                    <p className="mb3"><b>*12 online themed compost circles</b> following Nature’s Regenerative wisdom</p>
-                    <p className="mb5"><b>*Spring or Fall retreat in Normandy</b> (optional, limited spots)</p>
-                     <div className="flex-col">
-                        <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Sign up to join</p></a>
-                        <a className="retreatButton" href="https://forms.gle/9AkEreCKr4BBH4Nv8" target="_"><p>Info Session: November 19</p></a>
+                    <h2>Join us in 2026. Return to the ground of your being.</h2>
+                    <p className="mb3"><b>Intentional retreats in Normandy.</b> April 16-20 and September 24-28.</p>
+                    <p className="mb5">Join a global constellation of new friends ready to follow the rhythms of Nature’s Regenerative wisdom.</p>
+                    <div className="flex-col">
+                        <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Reserve your spot</p></a>
                     </div>
+
                 </div>
                 <div className="w-50 mobile-full">
                     <Image
@@ -111,7 +110,7 @@ export default function RetreatPage() {
                             quality={80}
                         />
                         <a href="https://www.kirstenkallman.com/" target="_blank" className="underline"><p className="smaller">Kirsten Kallman</p></a>
-                        
+
                     </div>
                     <div className="w-35 mb6 late-mobile-hide">
                         <Image
@@ -136,6 +135,7 @@ export default function RetreatPage() {
                 <p className="mb3"><b>Led by Kirsten Kallman </b>(Health and Human Design Coach) and <b>Susannah Harmon Furr</b> (author of <i>The Upside of Uncertainty</i> and biodynamic, biointensive gardener), we’ll embark on a <b>yearlong journey of regenerative wisdom in action.</b></p>
                 <p>Our journey together will be guided by several frameworks: <b>Human Design, Gene Keys, The Upside of Uncertainty Tools,</b> and the wisdom of <b>Regenerative Design.</b></p>
             </div>
+            {/*
             <div className="flex-row mobile-col row-reverse">
                 <div className="w-50 halfText">
                     <div className="webSpace"></div>
@@ -177,6 +177,8 @@ export default function RetreatPage() {
                     </div>
                 </div>
             </div>
+            */}
+
             <Image
                 src="/aizier_quote.png"
                 alt="Retreat Greenhouse"
@@ -226,7 +228,8 @@ export default function RetreatPage() {
                     <h2>Frameworks</h2>
                     <p className="mb5">In addition to hands-on workshops and experience with the magic of soil we’ll explore: </p>
                     <p className="mb3">*Human Design and the Gene Keys to deepen our understanding of who we are, how we’re designed to move through life, and what’s possible when we stop resisting our natural cycles and begin to trust them instead. </p>
-                    <p>*How uncertainty is profoundly rich terrain for our wildest dreams and our possibilities are only ever as rich as our willingness to plant seeds on the darkest of nights.  </p>
+                    <p className="mb3">*How uncertainty is profoundly rich terrain for our wildest dreams and our possibilities are only ever as rich as our willingness to plant seeds on the darkest of nights.  </p>
+                    <p></p>
                 </div>
             </div>
             <div className="fullText">
@@ -281,14 +284,12 @@ export default function RetreatPage() {
                     <li>Transfer to~from Paris / Normandy</li>
                     <li>Field trips to two farmers markets and seaside village of Honfleur</li>
                     <li>Biointensive gardening tutorials and resources</li>
-                    <li>Nature walks, e-bikes, hot tub</li>
-                    <li>Snacks, drinks </li>
+                    <li>Nature walks, e-Bikes, Hot Tub, Snacks, Drinks</li>
                 </ul>
                 <p className="mb5 infoHighlight">In your 1:1 online session with Kirsten, you’ll explore the living blueprint of who you are through your Human Design chart — a map revealing how your body, as part of Nature, creates your unique way of being. In cultivating this understanding, you will see that self-awareness is the soil from which self-acceptance grows, to then blossom into the self-love we all need to truly thrive. </p>
                 <p className="mb5">Join us for this soulful and restorative experience.</p>
                 <div className="flex-col">
-                    <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Sign up to join</p></a>
-                    <a className="retreatButton" href="https://forms.gle/9AkEreCKr4BBH4Nv8" target="_"><p>Info Session: November 19</p></a>
+                    <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Reserve your spot</p></a>
                 </div>
             </div>
             <Image
@@ -314,7 +315,7 @@ export default function RetreatPage() {
                 </div>
             </div>
             <div className="fullText text-center">
-                <h2>Regenerative systems don’t resist the decay, the drab, the done. </h2>
+                <h2>Regenerative systems don’t resist the decay, the drab, the drone. </h2>
                 <p className="mb6">Taking cues from the miracle of soil we’ll explore the life-death-life cycle that animates all of nature and our own body-soul journey. We'll remember that we are nature–chaotic, beautiful, and evolving. In the garden, nothing is wasted. Even blight becomes compost. There are no mistakes: our shadows hold wisdom often veiling our creative potential.</p>
                 <Image
                     src="/angie.png"
