@@ -273,8 +273,7 @@ export default function RetreatPage() {
             </div>
             <div className="bg-cream fullText">
                 <h5>“We are the living links in a life force that moves and plays around and through us, binding the deepest soils with the farthest stars.” Alan Chadwick</h5>
-                <p>Price : 2240 Euro</p>
-                <p className="mb5">2000 retreat || 240 monthly compost circles (50% reduction)</p>
+                <p className="mb2">Price : 2000 Euro</p>
                 <p className="mb2">INCLUDES</p>
                 <ul className="mb5">
                     <li>4 nights of cozy comfort in Normandy cottage, private rooms
