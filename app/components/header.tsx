@@ -69,6 +69,7 @@ export default function Header() {
                     height={42}
                     sizes="(max-width: 928px) 44px, 56px"
                     style={{ width: "100%", height: "auto" }}
+                    priority
                 />
             </div>
 

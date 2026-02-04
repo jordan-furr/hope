@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SanityLive } from '@/sanity/lib/live'
+import PageTransition from "../components/PageTransition";
 
 export const metadata: Metadata = {
   title: "Hope Accelerator",
@@ -33,7 +34,9 @@ export default function FrontendLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#2E2823" />
       </head>
-      {children}
+      <PageTransition>
+        {children}
+      </PageTransition>
       <SanityLive />
     </>
   );
