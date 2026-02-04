@@ -105,7 +105,7 @@
 
 @media (max-width: 600px) {
     .heroCont {
-        height: 100dvh;
+        height: 75dvh;
     }
 
     .heroImg {
