@@ -169,7 +169,7 @@
 .retreatButton:hover {
     color: #4a4037;
     background-color: #fffefc;
-    transition: all 200ms ease-in-out;
+    transition: all 150ms ease-in-out;
 }
 
 .buttons {
@@ -262,9 +262,14 @@ li {
 
 .halfText,
 .fullText {
-    padding: 3rem;
+    padding: 3rem 4rem ;
     padding-bottom: 4rem;
     box-sizing: border-box;
+}
+
+.fullText {
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 .instaPhoto {
@@ -285,12 +290,12 @@ h2,
 h4,
 h5 {
     font-family: "Marcellus", serif;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     line-height: normal;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 60px;
 }
 
 h4 {
@@ -314,7 +319,6 @@ h5 {
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     padding-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 .bigQuote {

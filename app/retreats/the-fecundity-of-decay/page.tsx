@@ -6,7 +6,7 @@ export default function RetreatPage() {
     return (
         <div className='page bg-pink'>
             <Image
-                src="/greenhouse-hero.png"
+                src="/greenhouse-hero-2.png"
                 alt="Retreat Greenhouse"
                 width={1920}
                 height={1080}
@@ -16,13 +16,14 @@ export default function RetreatPage() {
             <div className="flex-row mobile-col">
                 <div className="w-50 halfText">
                     <div className="webSpace"></div>
-                    <h2>Join us in 2026. Return to the ground of your being.</h2>
-                    <p className="mb3"><b>Intentional retreats in Normandy.</b> April 16-20 and September 24-28.</p>
-                    <p className="mb5">Join a global constellation of new friends ready to follow the rhythms of Nature’s Regenerative wisdom.</p>
+                    <h2>Return to the ground of your being</h2>
+                    <p className="mb3"><b>Intentional women's retreat in Normandy</b> </p>
+                    <p className="mb1">April 16-20</p>
+                    <p className="mb3">September 24-28</p>
+                    <p className="mb5">Join a constellation of new friends ready to follow the rhythms of Nature’s Regenerative wisdom.</p>
                     <div className="flex-col">
-                        <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Reserve your spot</p></a>
+                        <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Reserve my place</p></a>
                     </div>
-
                 </div>
                 <div className="w-50 mobile-full">
                     <Image
@@ -36,8 +37,12 @@ export default function RetreatPage() {
                 </div>
             </div>
             <div className="bg-cream fullText text-center">
-                <h2>We'll remember that we are nature–chaotic, beautiful, and evolving. In the garden, nothing is wasted.</h2>
-                <p>We don’t scold the Earth in winter, her soil frozen and trees stripped bare. So why do we turn against ourselves when we feel down, dark, depleted? As a part of nature we too are meant to live in cycles, needing stillness, and to lie fallow. We are not here to be endlessly productive, relentlessly blooming. </p>
+                <h2 className="margin-a">We are nature–chaotic, beautiful, and evolving. In the garden, nothing is wasted.</h2>
+                <p className="mb1">Wintering enables Spring. Dormancy precedes growth.</p>
+                <p>Nothing is wrong with you. You are not broken.</p>
+                {/* <p className="mb5">We don’t scold the Earth in winter, her soil frozen and trees stripped bare. So why do we turn against ourselves when we feel down, dark, depleted? As a part of nature we too are meant to live in cycles, needing stillness, and to lie fallow. We are not here to be endlessly productive, relentlessly blooming. </p>
+                <p className="mobile-smaller"><b>Wintering enables Spring. Dormancy precedes growth.</b></p>
+                <p className="mobile-smaller"><b>Nothing is wrong with you. You are not broken.</b></p> */}
                 <div className="photo-grid">
                     <Image
                         src="/front.png"
@@ -80,16 +85,17 @@ export default function RetreatPage() {
                         className="gridphoto hideMobile"
                     />
                 </div>
-                <p className="mobile-smaller"><b>Wintering enables Spring. Dormancy precedes growth.</b></p>
-                <p className="mobile-smaller"><b>Nothing is wrong with you. You are not broken.</b></p>
+
             </div>
-            <div className="fullText">
-                <h4>This is for you if...</h4>
-                <div className="paragraphGap pl4"><p>*You’re craving a <b>deeper connection to the Earth, your body, your intuition</b></p>
-                    <p>*You are looking for guidance in practical frameworks for <b>intentional living</b></p>
-                    <p>*You are seeking <b>solidarity to release the pressure to always bloom</b></p>
-                    <p>*You’re in a <b>life transition</b> and seeking clarity and soulful integration</p>
-                    <p>*You’re ready to <b>meet yourself exactly where you are</b></p></div>
+            <div className="fullText text-center">
+                <div className="pv3">
+                    <h4>This is for you if...</h4>
+                    <div className="paragraphGap pl4"><p>*You’re craving a <b>deeper connection to the Earth, your body, your intuition</b></p>
+                        <p>*You are looking for guidance in practical frameworks for <b>intentional living</b></p>
+                        <p>*You are seeking <b>solidarity to release the pressure to always bloom</b></p>
+                        <p>*You’re in a <b>life transition</b> and seeking clarity and soulful integration</p>
+                        <p>*You’re ready to <b>meet yourself exactly where you are</b></p></div>
+                </div>
             </div>
             <div className="bg-cream fullText">
                 <Image
@@ -100,8 +106,8 @@ export default function RetreatPage() {
                     quality={80}
                     className="web-hide mb3 w-90 margin-a"
                 />
-                <div className="flex-row space-between align-center pt4 late-mobile-col">
-                    <div className="w-25 text-center late-mobile-half mb6">
+                <div className="flex-row space-between webPad align-center pt4 late-mobile-col">
+                    <div className="w-20 text-center late-mobile-half mb6">
                         <Image
                             src="/kirstenkallman.png"
                             alt="Retreat"
@@ -112,7 +118,7 @@ export default function RetreatPage() {
                         <a href="https://www.kirstenkallman.com/" target="_blank" className="underline"><p className="smaller">Kirsten Kallman</p></a>
 
                     </div>
-                    <div className="w-35 mb6 late-mobile-hide">
+                    <div className="w-30 mb6 late-mobile-hide">
                         <Image
                             src="/circle.png"
                             alt="Retreat"
@@ -121,7 +127,7 @@ export default function RetreatPage() {
                             quality={80}
                         />
                     </div>
-                    <div className="w-25 text-center late-mobile-half mb6">
+                    <div className="w-20 text-center late-mobile-half mb6">
                         <Image
                             src="/susannahfurr.png"
                             alt="Retreat"
@@ -132,8 +138,8 @@ export default function RetreatPage() {
                         <p className="smaller">Susannah Furr</p>
                     </div>
                 </div>
-                <p className="mb3"><b>Led by Kirsten Kallman </b>(Health and Human Design Coach) and <b>Susannah Harmon Furr</b> (author of <i>The Upside of Uncertainty</i> and biodynamic, biointensive gardener), we’ll embark on a <b>yearlong journey of regenerative wisdom in action.</b></p>
-                <p>Our journey together will be guided by several frameworks: <b>Human Design, Gene Keys, The Upside of Uncertainty Tools,</b> and the wisdom of <b>Regenerative Design.</b></p>
+                <p className="mb3 pt3">Led by Health and Human Design Coach, Kirsten Kallman, and author of <i>The Upside of Uncertainty</i> and biodynamic, biointensive gardener, Susannah Harmon Furr, you’ll embark on a journey of regenerative wisdom in action.</p>
+                <p>Our journey together will be guided by several frameworks: <b>Human Design, Gene Keys, The Upside of Uncertainty,</b> and the wisdom of <b>Regenerative Design.</b></p>
             </div>
             {/*
             <div className="flex-row mobile-col row-reverse">
@@ -187,12 +193,14 @@ export default function RetreatPage() {
                 className="retreatHero"
             />
             <div className="bg-cream fullText">
-                <h2 className="mb2">In Person Retreats </h2>
-                <h5 className="mb5">Women only this year, yearlong pilgrimage included</h5>
-                <h5 className="mb2">April 16-20</h5>
-                <h5>September 24-28</h5>
-                <p>We will gather at the Hope Accelerator– a biodynamic garden and thatched cottage nestled in a tiny Normandy village along the banks of the Seine river–
+                <h2 className="mb2">Women only this year</h2>
+                <p className="mb5">We will gather at the Hope Accelerator– a biodynamic garden and thatched cottage nestled in a tiny Normandy village along the banks of the Seine river–
                     where soul and soil can sync up again.</p>
+                <h5 className="mb1">April 16-20</h5>
+                <h5 className="mb5">September 24-28</h5>
+                <div className="flex-col">
+                    <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Reserve April or September</p></a>
+                </div>
             </div>
             <div className="flex-row mobile-col row-reverse">
                 <div className="w-50 halfText">
@@ -233,7 +241,7 @@ export default function RetreatPage() {
                 </div>
             </div>
             <div className="fullText">
-                <h2>Each day, we’ll share one meal at beloved local establishments. These meals will celebrate the quiet luxury of real food prepared by earnest chefs.</h2>
+                <h2>Each day, we’ll share one meal at a beloved local establishment.</h2>
                 <p className="mb3">We’ll slow down and root into the ritual of preparing food together. After visiting Normandy’s farmers’ markets: Pont-Audemer and Honfleur.</p>
                 <p>Returning to the kitchen we’ll cook with the season’s freshest ingredients or harvest directly from the kitchen garden. The act of cooking is always inviting us into conversation with the land and a reminder of our own inner seasons.</p>
                 <div className="threePhoto">
@@ -272,10 +280,8 @@ export default function RetreatPage() {
                 </div>
             </div>
             <div className="bg-cream fullText">
-                <h5>“We are the living links in a life force that moves and plays around and through us, binding the deepest soils with the farthest stars.” Alan Chadwick</h5>
-                <p className="mb2">Price : 2000 Euro</p>
-                <p className="mb2">INCLUDES</p>
-                <ul className="mb5">
+                <p className="mb3 pt3">INCLUDES</p>
+                <ul className="mb3">
                     <li>4 nights of cozy comfort in Normandy cottage, private rooms
                         (discount available if shared occupancy)</li>
                     <li>1:1 online Human Design/Gene Keys session with Kirsten</li>
@@ -285,11 +291,13 @@ export default function RetreatPage() {
                     <li>Biointensive gardening tutorials and resources</li>
                     <li>Nature walks, e-Bikes, Hot Tub, Snacks, Drinks</li>
                 </ul>
-                <p className="mb5 infoHighlight">In your 1:1 online session with Kirsten, you’ll explore the living blueprint of who you are through your Human Design chart — a map revealing how your body, as part of Nature, creates your unique way of being. In cultivating this understanding, you will see that self-awareness is the soil from which self-acceptance grows, to then blossom into the self-love we all need to truly thrive. </p>
-                <p className="mb5">Join us for this soulful and restorative experience.</p>
-                <div className="flex-col">
+                <p className="mb5">Price : 2000 Euro</p>
+                <p className="mb6 infoHighlight">In your 1:1 online session with Kirsten, you’ll explore the living blueprint of who you are through your Human Design chart — a map revealing how your body, as part of Nature, creates your unique way of being. In cultivating this understanding, you will see that self-awareness is the soil from which self-acceptance grows, to then blossom into the self-love we all need to truly thrive. </p>
+                <p className="mb3">Join us for this soulful and restorative experience.</p>
+                <div className="flex-col mb6">
                     <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Reserve your spot</p></a>
                 </div>
+                <h5 className="mb0">“We are the living links in a life force that moves and plays around and through us, binding the deepest soils with the farthest stars.” Alan Chadwick</h5>
             </div>
             <Image
                 src="/cottage.jpg"
@@ -314,17 +322,17 @@ export default function RetreatPage() {
                 </div>
             </div>
             <div className="fullText text-center">
-                <h2>Regenerative systems don’t resist the decay, the drab, the drone. </h2>
-                <p className="mb6">Taking cues from the miracle of soil we’ll explore the life-death-life cycle that animates all of nature and our own body-soul journey. We'll remember that we are nature–chaotic, beautiful, and evolving. In the garden, nothing is wasted. Even blight becomes compost. There are no mistakes: our shadows hold wisdom often veiling our creative potential.</p>
+                <h2>Regenerative systems don’t resist the decay</h2>
+                <p className="mb3">Taking cues from the miracle of soil we’ll explore the life-death-life cycle that animates all of nature and our own body-soul journey. In the garden, nothing is wasted. Even blight becomes compost.</p>
+                <div className="flex-col align-center mb7"> <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Join the pilgrimage</p></a></div>
                 <Image
                     src="/angie.png"
                     alt="Retreat"
                     width={1620}
                     height={2025}
-                    className="w-50 margin-a mb4 mobile-full"
+                    className="w-40 margin-a mb3 mobile-full"
                 />
-                <div className="flex-col align-center"> <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout"><p>Join the pilgrimage</p></a></div>
-            </div>
+                  </div>
         </div>
     );
 }
