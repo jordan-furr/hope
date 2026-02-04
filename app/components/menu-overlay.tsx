@@ -20,8 +20,9 @@ export default function MenuOverlay({ onClose, isClosing = false }: MenuOverlayP
     return (
         <div className={`menuOverlay ${animate && !isClosing ? 'menuOpen' : ''}`}>
             <nav className="menuCont">
-                <Link href="/inspiration" className="menuItem" onClick={onClose}>Inspiration</Link>
+               
                 <Link href="/retreats/the-fecundity-of-decay" className="menuItem" onClick={onClose}>Upcoming Retreats</Link>
+                 <Link href="/inspiration" className="menuItem" onClick={onClose}>Inspiration</Link>
                 <Link href="/about" className="menuItem" onClick={onClose}>About</Link>
                 <Link href="/faq" className="menuItem" onClick={onClose}>FAQ</Link>
                 <Link href="/contact" className="menuItem" onClick={onClose}>Contact</Link>
