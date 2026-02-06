@@ -432,7 +432,7 @@ li {
 
 .halfText,
 .fullText {
-    padding: 3rem 4rem;
+    padding: 3rem;
     box-sizing: border-box;
 }
 
@@ -567,7 +567,7 @@ ul {
 
 .checkout {
     padding-top: 160px;
-    
+
 }
 
 .dates {
@@ -598,6 +598,8 @@ ul {
     }
 }
 
+
+
 @media (max-width: 890px) {
     .webSpace {
         display: none;
@@ -619,7 +621,7 @@ ul {
     }
 
     .mobile-p0 {
-        padding: 0;
+        padding: 0 !important;
     }
 
 
@@ -627,14 +629,14 @@ ul {
         height: auto !important;
     }
 
+    h2 {
+        font-size: 40px;
+    }
+
     .halfText,
     .fullText {
         padding: 2rem;
-        padding-bottom: 3rem;
-    }
-
-    h2 {
-        font-size: 40px;
+        padding-bottom: 2rem;
     }
 
 }
@@ -663,18 +665,17 @@ ul {
     }
 
     .halfText {
-        text-align: left;
+        text-align: left !important;
     }
 
-     .dates {
+    .dates {
         font-size: 1.5rem !important;
     }
 
     .checkout {
-    padding-top: 111px;
-    
-}
+        padding-top: 111px;
 
+    }
 
     .halfText,
     .fullText {
@@ -723,7 +724,7 @@ ul {
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 38px;
         margin-bottom: 2rem;
     }
 
@@ -742,8 +743,8 @@ ul {
         font-size: 1.25rem;
     }
 
-   
 
-   
+
+
 
 }
