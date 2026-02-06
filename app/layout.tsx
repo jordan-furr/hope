@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Header from "./components/header";
-import { inter } from '@/app/ui/fonts';
 import "./styles/globals.css";
 import "./styles/header.css";
 import './styles/page.css'
+import { glacial } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Hope Accelerator",
@@ -38,7 +38,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#2E2823" />
       </head>
       
-      <body className={`${inter.className} ${inter.className}`}>
+      <body className={glacial.variable}>
         <Header />
         <main>
           {children}

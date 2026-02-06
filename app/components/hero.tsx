@@ -5,7 +5,7 @@ export default async function Hero() {
         <div>
             <div className="heroCont">
                 <Image
-                    src="/aizier_yard.jpg"
+                    src="/greenhouse-hero-a.png"
                     alt="Retreat Greenhouse"
                     fill
                     className="heroImg"
