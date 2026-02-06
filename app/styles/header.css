@@ -12,10 +12,7 @@
 
 }
 
-.hopeTitle:hover {
-    color: #2E2823;
-    transition: 100ms ease-in-out;
-}
+
 
 .menuToggleIcon {
     position: fixed;
@@ -80,7 +77,12 @@
     .menuOverlay {
         width: 33%;
         border-left: 1px solid white;
+
     }
+    .hopeTitle:hover {
+    color: #2E2823;
+    transition: 100ms ease-in-out;
+}
 }
 
 @media (max-width: 527px) {

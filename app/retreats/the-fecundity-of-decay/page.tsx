@@ -230,7 +230,7 @@ export default function RetreatPage() {
                     <p className="mb5 ">Dig deep to compost old patterns, stories, and fears that no longer serve you to discover your true nature.</p>
 
                     <h4>Includes</h4>
-                    <ul className="mb4 includes">
+                    <ul className="mb5 includes">
                         <li>4 nights in Normandy cottage, private rooms (discount if shared)</li>
                         <li>1:1 online Human Design/Gene Keys session with Kirsten</li>
                         <li>1 daily seasonal, gastronomic meal, 1 daily communal meal, snacks, drinks</li>
@@ -240,7 +240,7 @@ export default function RetreatPage() {
                         <li>Transfer to & from Paris</li>
                     </ul>
                     <p className="mb6">Price : 2000 Euro</p>
-                    <p className="mb6 infoHighlight">In your 1:1 online session with Kirsten, you’ll explore the living blueprint of who you are through your Human Design chart — a map revealing how your body, as part of Nature, creates your unique way of being.</p>
+                    <p className="mb5 infoHighlight">In your 1:1 online session with Kirsten, you’ll explore the living blueprint of who you are through your Human Design chart — a map revealing how your body, as part of Nature, creates your unique way of being.</p>
                     <p className="mb5">Join us for this soulful and restorative experience. <u>Women only this year.</u></p>
 
                     <div className="flex-col mb5">
@@ -331,7 +331,7 @@ export default function RetreatPage() {
                    <p>April 16-20 or</p>
                    <p className="mb6">September 24-28</p>
                     <div className="mb5">
-                        <a className="retreatButton cream" href="/contact">Ask a question</a>
+                        <a className="retreatButton cream" href="/retreats/the-fecundity-of-decay/checkout">Ask a question</a>
                     </div>
                 </div>
                 <div className="w-50 mobile-full">
