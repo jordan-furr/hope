@@ -206,10 +206,6 @@ p {
     font-family: "Marcellus", serif;
 }
 
-.dates {
-    font-size: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
 .marcellus {
     font-family: 'Marcellus', serif;
@@ -569,6 +565,14 @@ ul {
 }
 
 
+.checkout {
+    padding-top: 160px;
+    
+}
+
+.dates {
+    font-size: 1.75rem !important;
+}
 
 
 
@@ -657,6 +661,43 @@ ul {
     .page {
         font-size: 1.25rem;
     }
+
+    .halfText {
+        text-align: left;
+    }
+
+     .dates {
+        font-size: 1.5rem !important;
+    }
+
+    .checkout {
+    padding-top: 111px;
+    
+}
+
+
+    .halfText,
+    .fullText {
+        padding: 2rem 1.25rem;
+    }
+
+    .twigs_content {
+        font-size: 4rem;
+    }
+
+    .fecundity p {
+        font-size: 1.5rem;
+    }
+
+
+
+    .circleList li {
+        font-size: 1.5rem;
+    }
+
+    .includes li {
+        font-size: 1.5rem;
+    }
 }
 
 @media (min-width: 551px) {
@@ -701,30 +742,7 @@ ul {
         font-size: 1.15rem;
     }
 
-    .halfText,
-    .fullText {
-        padding: 2rem 1.25rem;
-    }
-
-    .twigs_content {
-        font-size: 4rem;
-    }
-
-    .fecundity p {
-        font-size: 1.5rem;
-    }
-
-    .halfText {
-        text-align: left;
-    }
-
-    .circleList li {
-        font-size: 1.5rem;
-    }
-
-    .includes li {
-        font-size: 1.5rem;
-    }
+   
 
    
 
