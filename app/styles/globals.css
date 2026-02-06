@@ -16,6 +16,7 @@ body {
     font-size: 16px;
 }
 
+
 body {
     color: var(--foreground);
     background: var(--background);
@@ -190,6 +191,10 @@ a {
     width: 66.666%;
 }
 
+.w-65 {
+    width: 65%;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -322,6 +327,14 @@ a {
     padding: 2rem;
 }
 
+.pa6 {
+    padding: 3rem;
+}
+
+.pa7 {
+    padding: 4rem;
+}
+
 .pl0 {
     padding-left: 0;
 }
@@ -346,8 +359,12 @@ a {
     padding-left: 2rem;
 }
 
-.pl7 {
+.pl6 {
     padding-left: 3rem;
+}
+
+.pl7 {
+    padding-left: 4rem;
 }
 
 .pr1 {
@@ -364,6 +381,10 @@ a {
 
 .pr4 {
     padding-right: 1.5rem;
+}
+
+.pt0 {
+    padding-top: 0;
 }
 
 .pt1 {
@@ -445,6 +466,17 @@ a {
     padding-bottom: 3rem;
     padding-top: 3rem;
 }
+
+.pv7 {
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.pv8 {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
 
 .pb1 {
     padding-bottom: 0.25rem;

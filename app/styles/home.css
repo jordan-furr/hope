@@ -14,10 +14,10 @@
 
 .heroImg {
     object-fit: cover;
-    transform: scale(1.25);
-    object-position: 50% 72%;
+    object-position: 50% 82%;
     transition: transform 0.3s ease;
 }
+
 
 /*INFO*/
 
