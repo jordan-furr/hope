@@ -90,7 +90,7 @@
 
 
 .subButton:hover {
-    background-color: var(--blue);
+    background-color: #a69e90;
     transition: ease-in-out 150ms;
 }
 
