@@ -10,6 +10,10 @@
     background-color: #FFFEF9;
 }
 
+.evergreen p {
+    font-size: 1.5rem;
+}
+
 .hero-container {
     position: relative;
     width: 100%;

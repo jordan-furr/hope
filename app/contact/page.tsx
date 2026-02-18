@@ -2,7 +2,7 @@ import '../styles/page.css'
 
 export default function ContactPage() {
     return (
-        <div className='page'>
+        <div className='page evergreen'>
             <div className='line'></div>
             <div className='pageContent'>
                 <div className='pageTitle'>

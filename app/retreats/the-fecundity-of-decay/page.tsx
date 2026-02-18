@@ -230,7 +230,7 @@ export default function RetreatPage() {
                     <p className="mb5 ">Dig deep to compost old patterns, stories, and fears that no longer serve you to discover your true nature.</p>
 
                     <h4>Includes</h4>
-                    <ul className="mb5 includes">
+                    <ul className="mb6 includes">
                         <li>4 nights in Normandy cottage, private rooms (discount if shared)</li>
                         <li>1:1 online Human Design/Gene Keys session with Kirsten</li>
                         <li>1 daily seasonal, gastronomic meal, 1 daily communal meal, snacks, drinks</li>
@@ -239,12 +239,12 @@ export default function RetreatPage() {
                         <li>Nature walks, e-bikes, Hot Tub, Pool</li>
                         <li>Transfer to & from Paris</li>
                     </ul>
-                    <p className="mb6">Price : 2000 Euro</p>
+                    {/* <p className="mb6">Price : 2000 Euro</p> */}
                     <p className="mb5 infoHighlight">In your 1:1 online session with Kirsten, you’ll explore the living blueprint of who you are through your Human Design chart — a map revealing how your body, as part of Nature, creates your unique way of being.</p>
                     <p className="mb5">Join us for this soulful and restorative experience. <u>Women only this year.</u></p>
 
                     <div className="flex-col mb5">
-                        <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout">Reserve April or September</a>
+                        <a className="retreatButton" href="/retreats/the-fecundity-of-decay/checkout">More info</a>
                     </div>
                 </div>
 
@@ -328,8 +328,8 @@ export default function RetreatPage() {
             <div className="flex-row mobile-col row-reverse align-center cream">
                 <div className="w-50 halfText">
                     <h2>This is not a retreat to escape your life, but to return to it more fully.</h2>
-                   <p>April 16-20 or</p>
-                   <p className="mb6">September 24-28</p>
+                   {/* <p>April 16-20 or</p> */}
+                   <p className="mb6">More info coming soon</p>
                     <div className="mb5">
                         <a className="retreatButton cream" href="/retreats/the-fecundity-of-decay/checkout">Ask a question</a>
                     </div>
