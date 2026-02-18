@@ -286,7 +286,7 @@ p {
     border-radius: 50px;
     margin-top: .5rem;
     color: #a69e90;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     font-weight: 100;
     border: #2E2823 2px solid;
 }
@@ -741,7 +741,7 @@ ul {
     }
 
     .retreatButton {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 
 
