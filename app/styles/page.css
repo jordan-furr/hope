@@ -1,17 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 
 .page {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     overflow: auto;
     display: flex;
     flex-direction: column;
-    color: #2E2823;
-    background-color: #FFFEF9;
+    color: #111111;
+    background-color: #f5eaab;
+}
+
+.pageContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5rem;
+    margin-bottom: 3rem;
+    line-height: 1.15;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Marcellus", serif;
+    line-height: normal;
+}
+
+
+.page h1 {
+    font-family: "Marcellus", serif;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3;
+    margin-bottom: 2.5rem;
+}
+
+h2, h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+
+.pageTitle {
+    font-size: 2rem;
+}
+
+.page h3 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
 }
 
 .evergreen p {
-    font-size: 1.5rem;
+    font-size: 1.33rem;
 }
 
 .hero-container {
@@ -157,31 +202,10 @@ p {
 }
 
 
-.pageContent {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 92%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2.5rem;
-    margin-bottom: 3rem;
-}
-
-.pageTitle {
-    font-size: 2rem;
-}
-
-.page h3 {
-    margin-top: 3rem;
-    font-size: 1.5rem;
-}
 
 
-.retreat {
-    padding-top: 2rem;
-    margin-bottom: 2rem;
-}
+
+
 
 .retreatSubTitle {
     padding-top: 1rem;
@@ -247,6 +271,14 @@ p {
     font-weight: bold;
 }
 
+.contactSubscribe .emailInput::placeholder {
+    color: black !important;
+}
+
+.contactSubscribe .formInputCont {
+    border: black;
+}
+
 
 .postTitle {
     display: block;
@@ -272,15 +304,16 @@ p {
 }
 
 .subscribeLink {
-    color: #85b3ff;
+    color: #56402E;
     font-weight: 500;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: #56402E;
 }
 
 .subscribeLink:hover {
-    color: #85b3ff;
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    text-decoration-color: #85b3ff;
+    color: #000000;
+    text-decoration: none
 }
 
 .retreatButton {
@@ -459,25 +492,7 @@ li {
     height: 50px;
 }
 
-h2,
-h4,
-h5 {
-    font-family: "Marcellus", serif;
-    margin-bottom: 2rem;
-    line-height: normal;
-}
 
-h2 {
-    font-size: 60px;
-}
-
-h4 {
-    font-size: 46px;
-}
-
-h5 {
-    font-size: 28px;
-}
 
 .bg-cream {
     background-color: #FFFEF9;
@@ -592,7 +607,7 @@ ul {
 
 @media (min-width: 928px) {
     .pageContent {
-        width: 80vw;
+        width: 44vw;
     }
 
     .gridphoto:hover {
@@ -633,10 +648,6 @@ ul {
         height: auto !important;
     }
 
-    h2 {
-        font-size: 40px;
-        line-height: 1.2;
-    }
 
     .halfText,
     .fullText {
@@ -723,21 +734,6 @@ ul {
         width: 47% !important;
     }
 
-    h5 {
-        font-size: 22px !important;
-        margin-bottom: 2rem;
-    }
-
-    h2 {
-        font-size: 36px;
-        margin-bottom: 2rem;
-    }
-
-    h4 {
-        font-size: 32px;
-        margin-bottom: 2rem;
-    }
-
     .bigQuote {
         font-size: 32px;
         line-height: 1.5;
@@ -747,9 +743,6 @@ ul {
     .retreatButton {
         font-size: 1.15rem;
     }
-
-
-
 
 
 }

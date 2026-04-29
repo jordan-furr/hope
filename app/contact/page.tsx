@@ -1,4 +1,5 @@
 import '../styles/page.css'
+import SubscribeForm from '../components/subscribe-form';
 
 export default function ContactPage() {
     return (
@@ -8,8 +9,12 @@ export default function ContactPage() {
                 <div className='pageTitle'>
                     <h1>Get in Touch</h1>
                 </div>
-                <div className='mt3'>
-                    <p className='mb1'>Please email us at info@upschool.org</p>
+                <div>
+                    <p>Please write to us at {' '}
+                        <a href="mailto:info@upschool.org" target='_' className="subscribeLink">
+                            info@upschool.org
+                        </a>{' '}</p>
+                    
                 </div>
             </div>
         </div>
