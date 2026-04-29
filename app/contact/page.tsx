@@ -14,7 +14,6 @@ export default function ContactPage() {
                         <a href="mailto:info@upschool.org" target='_' className="subscribeLink">
                             info@upschool.org
                         </a>{' '}</p>
-                    
                 </div>
             </div>
         </div>
