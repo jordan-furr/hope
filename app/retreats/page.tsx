@@ -10,7 +10,7 @@ export default function RetreatPage() {
                 </div>
                 <div className='margin-a'>
                     <p className='mb6'>Our retreats are designed as living workshops where participants engage with nature's regenerative wisdom. Whether nestled next to our biointensive garden in the landscapes of Normandy, the vibrant energy of Paris, or through our online gatherings, each retreat creates space for deep transformation through the cyclical rhythms that govern all living systems.</p>
-                    <p className='bold mb3'>Upcoming Retreats</p>
+                    <p className='bold mb3 glacial'>Upcoming Retreats</p>
 
                     <p className='mb3'>We don’t have any retreats scheduled at the moment. Join our mailing list or check back soon.</p>
                     <Link href="/" className="subscribeLink"><p>Subscribe</p></Link>

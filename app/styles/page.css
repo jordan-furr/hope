@@ -26,17 +26,17 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: 'Montserrat';
+    font-family: 'BJCree';
     line-height: normal;
 }
 
 
 .page h1 {
-    font-family: "Marcellus", serif;
+    font-family: "BJCree", serif;
     font-size: 3rem;
     font-weight: bold;
     letter-spacing: 3;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 h2,
@@ -57,7 +57,8 @@ h3 {
 }
 
 .evergreen p {
-    font-size: 1.33rem;
+    font-size: 1.25rem;
+    font-style: normal;
 }
 
 .hero-container {
@@ -88,47 +89,30 @@ h3 {
 
 /* --------------- COMPOST --------------------- */
 .postsContainer {
+    border-top: dashed .33rem #2E2823;
+    width: 100%;
+    padding-top: 1.25rem;
+}
+
+.postBody {
+    line-height: 1.15;
+}
+
+.post {
+    border-bottom: dashed .33rem #2E2823;
+    padding-bottom: 1.25rem;
     width: 100%;
 }
-.heroButtonCont {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-}
- 
-.heroButton {
-    color: white;
-    padding: 6px 18px;
-    font-size: clamp(1rem, 2vw, 2rem);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-decoration: none;
-    background: transparent;
-    cursor: pointer;
-    transition: background-color 150ms ease-in-out;
-}
- 
-.heroButton:hover {
-    color: #a69e90;
-}
- 
-@media (max-width: 600px) {
-    .heroButtonCont {
-        align-items: flex-start;
-        padding-top: 50%;
-    }
-}
+
 
 
 
 /* --------------- QUOTES --------------------- */
 .attribution {
-    font-family: 'Marcellus';
+    font-family: 'Glacial', serif;
     font-size: 133%;
 }
+
 
 
 @keyframes fadeInUp {
@@ -284,6 +268,9 @@ p {
 .marcellus {
     font-family: 'Marcellus', serif;
 }
+.glacial {
+    font-family: 'Glacial', serif;
+}
 
 .infoBox {
     width: 50%;
@@ -318,11 +305,7 @@ p {
 }
 
 .contactSubscribe .emailInput::placeholder {
-    color: black !important;
-}
-
-.contactSubscribe .formInputCont {
-    border: black;
+    color: #2E2823 !important;
 }
 
 
@@ -650,12 +633,19 @@ ul {
     }
 }
 
+@media (min-width: 660px) {
+    .pageContent {
+        width: 50vw;
+    }
+}
 
-@media (min-width: 928px) {
+@media (min-width: 1000px) {
     .pageContent {
         width: 33vw;
     }
+}
 
+@media (min-width: 928px) {
     .gridphoto:hover {
         transform: scale(106%);
         border-radius: 1%;
@@ -800,4 +790,117 @@ ul {
     }
 
 
+}
+
+
+
+/* CONTACT SUBSCRIBE */
+.cont {
+    width: 100%;
+    font-size: clamp(1.25rem, 1.5vw, 2rem);
+    color: #2E2823;
+}
+
+.form {
+    border: solid 1px #2E2823;
+    box-sizing: border-box;
+}
+
+.inputCont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input {
+    color: #2E2823;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    min-width: 0;
+    background: transparent;
+}
+
+.input::placeholder {
+    color: #2E2823;
+}
+
+.input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.button {
+    flex-shrink: 0;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    border-left: solid 1px #2E2823;
+    color: #2E2823;
+    cursor: pointer;
+    background: transparent;
+}
+
+.button:hover {
+    background-color: #2E2823;
+    color: white;
+    transition: ease-in-out 150ms;
+}
+.contactSubscribeForm {
+    border: solid 1px #2E2823;
+    box-sizing: border-box;
+}
+
+.contactSubscribeButton {
+    border-left: solid 1px #2E2823;
+    color: #2E2823;
+    cursor: pointer;
+    background: transparent;
+}
+
+.contactSubscribeInput {
+    background: transparent;
+}
+.contactSubscribeCont {
+    width: 100%;
+    font-size: 1.25rem;
+    color: #2E2823;
+}
+
+.contactSubscribeInputCont {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactSubscribeInput {
+    color: #2E2823;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    min-width: 0;
+    background: transparent;
+}
+
+.contactSubscribeInput::placeholder {
+    color: #2E2823;
+}
+
+.contactSubscribeInput:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.contactSubscribeButton {
+    flex-shrink: 0;
+    padding: 2px 10px;
+    box-sizing: border-box;
+    border-left: solid 1px #2E2823;
+    color: #2E2823;
+    cursor: pointer;
+    background: transparent;
+}
+
+.contactSubscribeButton:hover {
+    background-color: #2E2823;
+    color: white;
+    transition: ease-in-out 150ms;
 }

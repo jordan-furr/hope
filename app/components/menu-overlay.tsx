@@ -17,15 +17,28 @@ export default function MenuOverlay({ onClose, isClosing = false }: MenuOverlayP
         }
     }, [isClosing]);
 
+    const links = [
+        { href: '/compost', label: 'Compost Notes' },
+        { href: '/inspiration', label: 'Inspiration' },
+        { href: '/about', label: 'About Hope' },
+        { href: '/retreats', label: 'Upcoming' },
+        { href: '/contact', label: 'Contact' },
+    ];
+
     return (
         <div className={`menuOverlay ${animate && !isClosing ? 'menuOpen' : ''}`}>
             <nav className="menuCont">
-               
-                <Link href="/compost" className="menuItem" onClick={onClose}>Compost Notes</Link>
-                <Link href="/inspiration" className="menuItem" onClick={onClose}>Inspiration</Link>
-                <Link href="/about" className="menuItem" onClick={onClose}>About Hope</Link>
-                <Link href="/retreats" className="menuItem" onClick={onClose}>Upcoming</Link>
-                <Link href="/contact" className="menuItem" onClick={onClose}>Contact</Link>
+                {links.map((link, i) => (
+                    <Link
+                        key={link.href}
+                        href={link.href}
+                        className={`menuItem ${animate && !isClosing ? 'menuItemVisible' : ''}`}
+                        style={{ animationDelay: `${i * 0.08}s` }}
+                        onClick={onClose}
+                    >
+                        {link.label}
+                    </Link>
+                ))}
             </nav>
         </div>
     );

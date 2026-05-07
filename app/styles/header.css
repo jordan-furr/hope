@@ -3,23 +3,26 @@
 .hopeTitle {
     z-index: 1000;
     width: max-content;
-    position: absolute;
+    position: fixed;
     left: calc((100% - 92%) / 2);
     top: 20px;
     font-size: clamp(1.6rem, 1.8vw, 4rem);
     font-weight: 400;
     cursor: pointer;
     font-family: 'BJCree';
+    animation: fadeIn 0.8s ease forwards;
 
 }
 
 .menuToggleIcon {
     position: fixed;
     top: 20px;
-    right: 34px;
+    right: 32px;
     z-index: 2000;
     transition: 150ms ease-in-out;
     cursor: pointer;
+    animation: fadeIn 0.8s ease forwards;
+    opacity: 0;
 }
 
 .menuToggleIcon:hover {
@@ -58,10 +61,15 @@
     font-size: 2rem;
     text-decoration: none;
     color: white;
+    opacity: 0;
+}
+
+.menuItem.menuItemVisible {
+    animation: fadeSlideIn 0.3s ease forwards;
 }
 
 .menuItem:hover {
-    color: black;
+    color: #2E2823;
 }
 
 .siteTitleLink {
@@ -74,8 +82,8 @@
 
 @media (min-width: 928px) {
     .menuOverlay {
-        width: 33%;
-        border-left: 1px solid white;
+        width: 30%;
+        border-left: 1px solid #a69e90;
 
     }
 
@@ -90,11 +98,27 @@
         transform: none;
         left: calc((100% - 92%) / 2);
     }
+
+    .menuToggleIcon {
+        right: calc((100% - 92%) / 2);
+    }
 }
 
 @media (max-width: 768px) {
     .menuCont {
-        padding: 6rem 2rem 4rem 2rem;
+        padding: 6rem 0rem 4rem 0rem;
+        padding-left: calc((100% - 92%) / 2);
+        padding-right: calc((100% - 92%) / 2);
     }
-
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeSlideIn {
+    from { opacity: 0; transform: translateX(20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
