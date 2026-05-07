@@ -10,14 +10,14 @@ export const metadata: Metadata = {
   description: "Retreats in Normandy",
   openGraph: {
     title: 'Hope Accelerator',
-    description: 'Immersive retreats run on an ethos: the regenerative power of Nature heals systems and us.',
+    description: 'The regenerative power of Nature heals systems and us.',
     url: 'https://www.hopeaccelerator.com/',
     siteName: 'Hope Accelerator',
     images: [
       {
-        url: 'https://www.hopeaccelerator.com/hopeaccelerator.png',
+        url: 'https://www.hopeaccelerator.com/hope-accelerator.png',
         width: 1200,
-        height: 800,
+        height: 630,
         alt: 'Hope Retreats in Normandy',
       },
     ],

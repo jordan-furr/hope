@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=BJCree:wght@400;500;600;700&display=swap');
 .hopeTitle {
     z-index: 1000;
     width: max-content;
@@ -8,6 +9,7 @@
     font-size: clamp(1.6rem, 1.8vw, 4rem);
     font-weight: 400;
     cursor: pointer;
+    font-family: 'BJCree';
 
 }
 
@@ -21,7 +23,7 @@
 }
 
 .menuToggleIcon:hover {
-    transform: scale(103%);
+    transform: scale(104%);
 }
 
 .menuOverlay {
@@ -77,7 +79,7 @@
 
     }
     .hopeTitle:hover {
-    color: #2E2823;
+    color: #a69e90;
     transition: 100ms ease-in-out;
 }
 }
