@@ -12,11 +12,11 @@ export default async function Hero() {
                     className="heroImg"
                 />
             </div>
-            <div className="heroButtonCont">
+            {/* <div className="heroButtonCont">
                     <Link href="/compost" className="heroButton">
                         Compost Notes
                     </Link>
-                </div>
+                </div> */}
         </div>
     );
 }
