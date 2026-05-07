@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default async function Hero() {
     return (
@@ -11,6 +12,11 @@ export default async function Hero() {
                     className="heroImg"
                 />
             </div>
+            <div className="heroButtonCont">
+                    <Link href="/compost" className="heroButton">
+                        Compost Notes
+                    </Link>
+                </div>
         </div>
     );
 }

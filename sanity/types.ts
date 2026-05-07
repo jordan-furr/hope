@@ -13,6 +13,17 @@
  */
 
 // Source: schema.json
+export type Quote = {
+  _id: string;
+  _type: "quote";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  quoteText?: string;
+  attribution?: string;
+  publishedAt?: string;
+};
+
 export type Post = {
   _id: string;
   _type: "post";
@@ -20,13 +31,6 @@ export type Post = {
   _updatedAt: string;
   _rev: string;
   title?: string;
-  slug?: Slug;
-  author?: {
-    _ref: string;
-    _type: "reference";
-    _weak?: boolean;
-    [internalGroqTypeReferenceTo]?: "author";
-  };
   mainImage?: {
     asset?: {
       _ref: string;
@@ -40,15 +44,41 @@ export type Post = {
     alt?: string;
     _type: "image";
   };
-  categories?: Array<{
-    _ref: string;
-    _type: "reference";
-    _weak?: boolean;
-    _key: string;
-    [internalGroqTypeReferenceTo]?: "category";
-  }>;
+  body?: string;
   publishedAt?: string;
-  body?: BlockContent;
+};
+
+export type SanityImageCrop = {
+  _type: "sanity.imageCrop";
+  top?: number;
+  bottom?: number;
+  left?: number;
+  right?: number;
+};
+
+export type SanityImageHotspot = {
+  _type: "sanity.imageHotspot";
+  x?: number;
+  y?: number;
+  height?: number;
+  width?: number;
+};
+
+export type Category = {
+  _id: string;
+  _type: "category";
+  _createdAt: string;
+  _updatedAt: string;
+  _rev: string;
+  title?: string;
+  slug?: Slug;
+  description?: string;
+};
+
+export type Slug = {
+  _type: "slug";
+  current?: string;
+  source?: string;
 };
 
 export type BlockContent = Array<{
@@ -82,39 +112,6 @@ export type BlockContent = Array<{
   _type: "image";
   _key: string;
 }>;
-
-export type SanityImageCrop = {
-  _type: "sanity.imageCrop";
-  top?: number;
-  bottom?: number;
-  left?: number;
-  right?: number;
-};
-
-export type SanityImageHotspot = {
-  _type: "sanity.imageHotspot";
-  x?: number;
-  y?: number;
-  height?: number;
-  width?: number;
-};
-
-export type Slug = {
-  _type: "slug";
-  current?: string;
-  source?: string;
-};
-
-export type Category = {
-  _id: string;
-  _type: "category";
-  _createdAt: string;
-  _updatedAt: string;
-  _rev: string;
-  title?: string;
-  slug?: Slug;
-  description?: string;
-};
 
 export type Author = {
   _id: string;
@@ -252,43 +249,5 @@ export type Geopoint = {
   alt?: number;
 };
 
-export type AllSanitySchemaTypes = Post | BlockContent | SanityImageCrop | SanityImageHotspot | Slug | Category | Author | SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityImageMetadata | SanityFileAsset | SanityAssetSourceData | SanityImageAsset | Geopoint;
+export type AllSanitySchemaTypes = Quote | Post | SanityImageCrop | SanityImageHotspot | Category | Slug | BlockContent | Author | SanityImagePaletteSwatch | SanityImagePalette | SanityImageDimensions | SanityImageMetadata | SanityFileAsset | SanityAssetSourceData | SanityImageAsset | Geopoint;
 export declare const internalGroqTypeReferenceTo: unique symbol;
-// Source: sanity/lib/queries.ts
-// Variable: POSTS_QUERY
-// Query: *[_type == "post" && defined(slug.current)][0...12]{        _id, title, slug, publishedAt    }
-export type POSTS_QUERYResult = Array<{
-  _id: string;
-  title: string | null;
-  slug: Slug | null;
-  publishedAt: string | null;
-}>;
-// Variable: POST_QUERY
-// Query: *[_type == "post" && slug.current == $slug][0]{        _id, title, body, mainImage    }
-export type POST_QUERYResult = {
-  _id: string;
-  title: string | null;
-  body: BlockContent | null;
-  mainImage: {
-    asset?: {
-      _ref: string;
-      _type: "reference";
-      _weak?: boolean;
-      [internalGroqTypeReferenceTo]?: "sanity.imageAsset";
-    };
-    media?: unknown;
-    hotspot?: SanityImageHotspot;
-    crop?: SanityImageCrop;
-    alt?: string;
-    _type: "image";
-  } | null;
-} | null;
-
-// Query TypeMap
-import "@sanity/client";
-declare module "@sanity/client" {
-  interface SanityQueries {
-    "*[_type == \"post\" && defined(slug.current)][0...12]{\n        _id, title, slug, publishedAt\n    }\n": POSTS_QUERYResult;
-    "*[_type == \"post\" && slug.current == $slug][0]{\n        _id, title, body, mainImage\n    }\n": POST_QUERYResult;
-  }
-}

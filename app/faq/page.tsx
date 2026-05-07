@@ -19,11 +19,11 @@ export default function FaqPage() {
 
                     </p>
                     <div className='mv5'>
-                        <p className="mt3 mb1 bold">
+                        <p className="mt3 mb1 bold marcellus">
                             Is accomadation provided for Normandy retreats?
                         </p>
                         <p>It varies for each retreat, but generally yes.</p>
-                        <p className="mt3 mb1 bold">
+                        <p className="mt5 mb1 bold marcellus">
                             Do I need any background or knowledge to attend?
                         </p>
                         <p>Not at all. Workshops will be accessible to everyone. Like the biodiversity required in soil, we will all benefit from diverse participants.</p>

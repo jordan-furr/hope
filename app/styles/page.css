@@ -26,7 +26,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-family: "Marcellus", serif;
+    font-family: 'Montserrat';
     line-height: normal;
 }
 
@@ -85,6 +85,51 @@ h3 {
     z-index: 999;
     animation: fadeInUp .8s ease-out 0.33s both;
 }
+
+/* --------------- COMPOST --------------------- */
+.postsContainer {
+    width: 100%;
+}
+.heroButtonCont {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+ 
+.heroButton {
+    color: white;
+    padding: 6px 18px;
+    font-size: clamp(1rem, 2vw, 2rem);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+    cursor: pointer;
+    transition: background-color 150ms ease-in-out;
+}
+ 
+.heroButton:hover {
+    color: #a69e90;
+}
+ 
+@media (max-width: 600px) {
+    .heroButtonCont {
+        align-items: flex-start;
+        padding-top: 50%;
+    }
+}
+
+
+
+/* --------------- QUOTES --------------------- */
+.attribution {
+    font-family: 'Marcellus';
+    font-size: 133%;
+}
+
 
 @keyframes fadeInUp {
     from {
@@ -608,7 +653,7 @@ ul {
 
 @media (min-width: 928px) {
     .pageContent {
-        width: 44vw;
+        width: 33vw;
     }
 
     .gridphoto:hover {

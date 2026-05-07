@@ -1,12 +1,45 @@
-import { defineQuery } from "next-sanity";
+import { client } from './client'
 
+export type Post = {
+  _id: string
+  title?: string
+  body?: string
+  publishedAt: string
+  mainImage?: {
+    asset: { url: string }
+    alt?: string
+  }
+}
 
-export const POSTS_QUERY = defineQuery(`*[_type == "post" && defined(slug.current)][0...12]{
-        _id, title, slug, publishedAt
-    }
-`);
+export type Quote = {
+  _id: string
+  quoteText: string
+  attribution: string
+  publishedAt: string
+}
 
-export const POST_QUERY = defineQuery(`*[_type == "post" && slug.current == $slug][0]{
-        _id, title, body, mainImage
-    }
-`);
+export async function getPosts(): Promise<Post[]> {
+  return client.fetch(
+    `*[_type == "post"] | order(publishedAt desc) {
+      _id,
+      title,
+      body,
+      publishedAt,
+      mainImage {
+        asset-> { url },
+        alt
+      }
+    }`
+  )
+}
+
+export async function getQuotes(): Promise<Quote[]> {
+  return client.fetch(
+    `*[_type == "quote"] | order(publishedAt desc) {
+      _id,
+      quoteText,
+      attribution,
+      publishedAt
+    }`
+  )
+}
