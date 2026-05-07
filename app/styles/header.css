@@ -1,5 +1,5 @@
-
 @import url('https://fonts.googleapis.com/css2?family=BJCree:wght@400;500;600;700&display=swap');
+
 .hopeTitle {
     z-index: 1000;
     width: max-content;
@@ -78,16 +78,17 @@
         border-left: 1px solid white;
 
     }
+
     .hopeTitle:hover {
-    color: #a69e90;
-    transition: 100ms ease-in-out;
-}
+        color: #a69e90;
+        transition: 100ms ease-in-out;
+    }
 }
 
 @media (max-width: 527px) {
     .hopeTitle {
-      transform: none;
-      left: calc((100% - 92%) / 2);
+        transform: none;
+        left: calc((100% - 92%) / 2);
     }
 }
 
@@ -95,5 +96,5 @@
     .menuCont {
         padding: 6rem 2rem 4rem 2rem;
     }
-    
+
 }
