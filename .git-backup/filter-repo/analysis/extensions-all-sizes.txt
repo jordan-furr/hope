@@ -1,0 +1,19 @@
+=== All extensions by reverse size ===
+Format: unpacked size, packed size, date deleted, extension name
+   529533304  523402781 <present>  .png
+    88542710   88126096 2026-05-06 .jpg
+    55526488   55245713 2026-05-06 .JPG
+    11037127   11017359 2026-05-06 .jpeg
+     2996628    2974115 2026-05-06 .pdf
+     3731152     266464 <present>  .json
+      122772      62283 <present>  .otf
+      417945      39281 <present>  .tsx
+      353851      14234 <present>  .css
+      157892      11509 <present>  .ico
+       45778       9244 <present>  .ts
+      367886       7203 <present>  .PNG
+        3314       1823 2025-03-06 .svg
+        1450        714 <present>  .md
+         539        286 <present>  .js
+         480        286 <present>  <no extension>
+         102         89 <present>  .mjs

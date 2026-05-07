@@ -1,0 +1,6 @@
+app/components/header.module.css ->
+    app/styles/header.css
+app/retreats/fecundity-of-decay/info/page.tsx ->
+    app/retreats/the-fecundity-of-decay/info/page.tsx
+public/03.JPG ->
+    public/hope_dirt.jpg

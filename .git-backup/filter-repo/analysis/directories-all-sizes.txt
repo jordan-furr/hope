@@ -1,0 +1,35 @@
+=== All directories by reverse size ===
+Format: unpacked size, packed size, date deleted, directory name
+   692839418  681179480 <present>  <toplevel>
+   688130229  680837373 <present>  public
+      930821      65616 <present>  app
+      122772      62283 <present>  public/fonts
+      308906      23390 <present>  app/retreats
+      345110      12081 <present>  app/styles
+       71736      10807 2025-11-05 app/retreats/fecundity-of-decay
+      227418      10620 <present>  app/retreats/the-fecundity-of-decay
+      157613       9438 <present>  sanity
+       52049       6787 <present>  app/components
+        8361       3074 <present>  sanity/schemaTypes
+       13134       1636 <present>  app/retreats/the-fecundity-of-decay/checkout
+        7276       1404 <present>  app/about
+        7566       1347 <present>  app/inspiration
+        2820       1257 <present>  sanity/lib
+        4640       1006 2026-05-06 app/posts
+        2181        971 <present>  pages/api
+        2181        971 <present>  pages
+        8091        836 2025-11-05 app/retreats/fecundity-of-decay/checkout
+        5604        791 <present>  app/faq
+        1719        724 <present>  app/retreats/the-fecundity-of-decay/info
+        1719        724 <present>  app/retreats/fecundity-of-decay/info
+        3308        685 <present>  app/compost
+        4593        649 <present>  app/contact
+        6214        568 <present>  app/(frontend)
+        1034        552 2025-07-26 app/menu
+        1424        487 <present>  app/retreats/success
+         770        368 2026-05-06 app/posts/[slug]
+         634        358 <present>  app/studio/[[...tool]]
+         634        358 <present>  app/studio
+         539        286 <present>  app/hooks
+         478        283 <present>  app/retreats/cancel
+          95         94 <present>  app/ui
