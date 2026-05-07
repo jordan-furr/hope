@@ -11,6 +11,7 @@ export default async function CompostPage() {
       <div className='pageContent'>
         <div className='pageTitle'>
           <h1>Compost</h1>
+          <p className='mb3'>Field notes from our reading list and the garden: greenhouse, beds, and compost.</p>
         </div>
         <div className='mt3 mb5 margin-a postsContainer'>
           {posts.length === 0 ? (
