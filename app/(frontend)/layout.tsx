@@ -12,9 +12,9 @@ export const metadata: Metadata = {
     siteName: 'Hope Accelerator',
     images: [
       {
-        url: 'https://www.hopeaccelerator.com/hopeaccelerator.png',
+        url: 'https://www.hopeaccelerator.com/hope-accelerator.png',
         width: 1200,
-        height: 800,
+        height: 630,
         alt: 'Hope Retreats in Normandy',
       },
     ],
