@@ -1,0 +1,7 @@
+=== Deleted extensions by reverse size ===
+Format: unpacked size, packed size, date deleted, extension name
+    88542710   88126096 2026-05-06 .jpg
+    55526488   55245713 2026-05-06 .JPG
+    11037127   11017359 2026-05-06 .jpeg
+     2996628    2974115 2026-05-06 .pdf
+        3314       1823 2025-03-06 .svg

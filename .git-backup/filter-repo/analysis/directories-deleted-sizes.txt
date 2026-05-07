@@ -1,0 +1,7 @@
+=== Deleted directories by reverse size ===
+Format: unpacked size, packed size, date deleted, directory name
+       71736      10807 2025-11-05 app/retreats/fecundity-of-decay
+        4640       1006 2026-05-06 app/posts
+        8091        836 2025-11-05 app/retreats/fecundity-of-decay/checkout
+        1034        552 2025-07-26 app/menu
+         770        368 2026-05-06 app/posts/[slug]
